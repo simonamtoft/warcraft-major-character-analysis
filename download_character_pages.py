@@ -16,7 +16,6 @@ SAVE_FOLDER = './data/wow_chars/'
 CHAR_LINK_PATTERN = r'\[\[(.*?)(?:[\|#].*?)?\]\]'
 
 
-
 if __name__ == "__main__":
     # generate query and get response from API
     query = generate_query(URL_BASE, TITLE)

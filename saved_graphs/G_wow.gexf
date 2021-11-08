@@ -4,273 +4,2685 @@
     <creator>NetworkX 2.5.1</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="race" type="string" />
+      <attribute id="3" title="faction" type="string" />
+      <attribute id="4" title="status" type="string" />
+      <attribute id="5" title="resource" type="string" />
+    </attributes>
     <nodes>
-      <node id="A'dal" label="A'dal" />
-      <node id="Alexstrasza" label="Alexstrasza" />
-      <node id="Illidan Stormrage" label="Illidan Stormrage" />
-      <node id="Kael'thas Sunstrider" label="Kael'thas Sunstrider" />
-      <node id="Khadgar" label="Khadgar" />
-      <node id="Lady Liadrin" label="Lady Liadrin" />
-      <node id="Lich King" label="Lich King" />
-      <node id="M'uru" label="M'uru" />
-      <node id="Maiev Shadowsong" label="Maiev Shadowsong" />
-      <node id="Med'an" label="Med'an" />
-      <node id="Remulos" label="Remulos" />
-      <node id="Tirion Fordring" label="Tirion Fordring" />
-      <node id="Velen" label="Velen" />
-      <node id="Aedelas Blackmoore" label="Aedelas Blackmoore" />
-      <node id="Arthas Menethil" label="Arthas Menethil" />
-      <node id="Danath Trollbane" label="Danath Trollbane" />
-      <node id="Taretha Foxton" label="Taretha Foxton" />
-      <node id="Terenas Menethil II" label="Terenas Menethil II" />
-      <node id="Thrall" label="Thrall" />
-      <node id="Aegwynn" label="Aegwynn" />
-      <node id="Blackhand" label="Blackhand" />
-      <node id="Cho'gall" label="Cho'gall" />
-      <node id="Jaina Proudmoore" label="Jaina Proudmoore" />
-      <node id="Llane Wrynn I" label="Llane Wrynn I" />
-      <node id="Medivh" label="Medivh" />
-      <node id="Meryl Felstorm" label="Meryl Felstorm" />
-      <node id="Nielas Aran" label="Nielas Aran" />
-      <node id="Sargeras" label="Sargeras" />
-      <node id="Valeera Sanguinar" label="Valeera Sanguinar" />
-      <node id="Varian Wrynn" label="Varian Wrynn" />
-      <node id="Aessina" label="Aessina" />
-      <node id="Brann Bronzebeard" label="Brann Bronzebeard" />
-      <node id="Elune" label="Elune" />
-      <node id="Malorne" label="Malorne" />
-      <node id="Ysera" label="Ysera" />
-      <node id="Aethas Sunreaver" label="Aethas Sunreaver" />
-      <node id="Anasterian Sunstrider" label="Anasterian Sunstrider" />
-      <node id="Garrosh Hellscream" label="Garrosh Hellscream" />
-      <node id="Grand Magister Rommath" label="Grand Magister Rommath" />
-      <node id="Halduron Brightwing" label="Halduron Brightwing" />
-      <node id="Kalecgos" label="Kalecgos" />
-      <node id="Lor'themar Theron" label="Lor'themar Theron" />
-      <node id="Malygos" label="Malygos" />
-      <node id="Rhonin" label="Rhonin" />
-      <node id="Sylvanas Windrunner" label="Sylvanas Windrunner" />
-      <node id="Taran Zhu" label="Taran Zhu" />
-      <node id="Vereesa Windrunner" label="Vereesa Windrunner" />
-      <node id="Vol'jin" label="Vol'jin" />
-      <node id="Agamaggan" label="Agamaggan" />
-      <node id="Archimonde" label="Archimonde" />
-      <node id="Cenarius" label="Cenarius" />
-      <node id="Malfurion Stormrage" label="Malfurion Stormrage" />
-      <node id="Mannoroth" label="Mannoroth" />
-      <node id="Rexxar" label="Rexxar" />
-      <node id="Agatha" label="Agatha" />
-      <node id="Annhylde the Caller" label="Annhylde the Caller" />
-      <node id="Aggramar" label="Aggramar" />
-      <node id="Eonar" label="Eonar" />
-      <node id="Magni Bronzebeard" label="Magni Bronzebeard" />
-      <node id="Tyr" label="Tyr" />
-      <node id="Aiden Perenolde" label="Aiden Perenolde" />
-      <node id="Orgrim Doomhammer" label="Orgrim Doomhammer" />
-      <node id="Uther the Lightbringer" label="Uther the Lightbringer" />
-      <node id="Akama" label="Akama" />
-      <node id="Kil'jaeden" label="Kil'jaeden" />
-      <node id="Magtheridon" label="Magtheridon" />
-      <node id="Ner'zhul" label="Ner'zhul" />
-      <node id="Nobundo" label="Nobundo" />
-      <node id="Al'Akir" label="Al'Akir" />
-      <node id="Cairne Bloodhoof" label="Cairne Bloodhoof" />
-      <node id="Deathwing" label="Deathwing" />
-      <node id="Hodir" label="Hodir" />
-      <node id="N'Zoth" label="N'Zoth" />
-      <node id="Ra" label="Ra" />
-      <node id="Ragnaros" label="Ragnaros" />
-      <node id="Thorim" label="Thorim" />
-      <node id="Thunderaan" label="Thunderaan" />
-      <node id="Alexandros Mograine" label="Alexandros Mograine" />
-      <node id="Balnazzar" label="Balnazzar" />
-      <node id="Baron Rivendare" label="Baron Rivendare" />
-      <node id="Darion Mograine" label="Darion Mograine" />
-      <node id="Draka" label="Draka" />
-      <node id="Kel'Thuzad" label="Kel'Thuzad" />
-      <node id="Muradin Bronzebeard" label="Muradin Bronzebeard" />
-      <node id="Queen Azshara" label="Queen Azshara" />
-      <node id="Renault Mograine" label="Renault Mograine" />
-      <node id="Arygos" label="Arygos" />
-      <node id="Bolvar Fordragon" label="Bolvar Fordragon" />
-      <node id="Broll Bearmantle" label="Broll Bearmantle" />
-      <node id="Chronormu" label="Chronormu" />
-      <node id="Ebyssian" label="Ebyssian" />
-      <node id="Eranikus" label="Eranikus" />
-      <node id="Fandral Staghelm" label="Fandral Staghelm" />
-      <node id="Freya" label="Freya" />
-      <node id="Galakrond" label="Galakrond" />
-      <node id="Korialstrasz" label="Korialstrasz" />
-      <node id="Loken" label="Loken" />
-      <node id="Nekros Skullcrusher" label="Nekros Skullcrusher" />
-      <node id="Nozdormu" label="Nozdormu" />
-      <node id="Shandris Feathermoon" label="Shandris Feathermoon" />
-      <node id="Tyranastrasz" label="Tyranastrasz" />
-      <node id="Tyrande Whisperwind" label="Tyrande Whisperwind" />
-      <node id="Xavius" label="Xavius" />
-      <node id="Algalon the Observer" label="Algalon the Observer" />
-      <node id="Aman'Thul" label="Aman'Thul" />
-      <node id="Odyn" label="Odyn" />
-      <node id="Yogg-Saron" label="Yogg-Saron" />
-      <node id="Alleria Windrunner" label="Alleria Windrunner" />
-      <node id="Anduin Lothar" label="Anduin Lothar" />
-      <node id="Anduin Wrynn" label="Anduin Wrynn" />
-      <node id="Arator the Redeemer" label="Arator the Redeemer" />
-      <node id="Dar'Khan Drathir" label="Dar'Khan Drathir" />
-      <node id="Galadin" label="Galadin" />
-      <node id="Gelbin Mekkatorque" label="Gelbin Mekkatorque" />
-      <node id="Giramar" label="Giramar" />
-      <node id="Kurdran Wildhammer" label="Kurdran Wildhammer" />
-      <node id="L'ura" label="L'ura" />
-      <node id="Magister Umbric" label="Magister Umbric" />
-      <node id="Nathanos Blightcaller" label="Nathanos Blightcaller" />
-      <node id="Turalyon" label="Turalyon" />
-      <node id="Varok Saurfang" label="Varok Saurfang" />
-      <node id="Xe'ra" label="Xe'ra" />
-      <node id="Zendarin Windrunner" label="Zendarin Windrunner" />
-      <node id="Zul'jin" label="Zul'jin" />
-      <node id="Alonsus Faol" label="Alonsus Faol" />
-      <node id="Archbishop Benedictus" label="Archbishop Benedictus" />
-      <node id="Genn Greymane" label="Genn Greymane" />
-      <node id="Moira Thaurissan" label="Moira Thaurissan" />
-      <node id="Lei Shen" label="Lei Shen" />
-      <node id="Norgannon" label="Norgannon" />
-      <node id="Wrathion" label="Wrathion" />
-      <node id="Y'Shaarj" label="Y'Shaarj" />
-      <node id="Anachronos" label="Anachronos" />
-      <node id="Eitrigg" label="Eitrigg" />
-      <node id="Soridormi" label="Soridormi" />
-      <node id="Dath'Remar Sunstrider" label="Dath'Remar Sunstrider" />
-      <node id="Daelin Proudmoore" label="Daelin Proudmoore" />
-      <node id="Garona Halforcen" label="Garona Halforcen" />
-      <node id="Hakkar the Soulflayer" label="Hakkar the Soulflayer" />
-      <node id="Kilrogg Deadeye" label="Kilrogg Deadeye" />
-      <node id="Nefarian" label="Nefarian" />
-      <node id="Baine Bloodhoof" label="Baine Bloodhoof" />
-      <node id="Chi-Ji" label="Chi-Ji" />
-      <node id="Dagran Thaurissan II" label="Dagran Thaurissan II" />
-      <node id="Falstad Wildhammer" label="Falstad Wildhammer" />
-      <node id="Helya" label="Helya" />
-      <node id="Ji Firepaw" label="Ji Firepaw" />
-      <node id="Landan Wrynn" label="Landan Wrynn" />
-      <node id="Liam Greymane" label="Liam Greymane" />
-      <node id="Lorewalker Cho" label="Lorewalker Cho" />
-      <node id="Magatha Grimtotem" label="Magatha Grimtotem" />
-      <node id="Mayla Highmountain" label="Mayla Highmountain" />
-      <node id="Onyxia" label="Onyxia" />
-      <node id="Sunwalker Dezco" label="Sunwalker Dezco" />
-      <node id="Talanji" label="Talanji" />
-      <node id="Xuen" label="Xuen" />
-      <node id="Zul" label="Zul" />
-      <node id="Antonidas" label="Antonidas" />
-      <node id="Teron Gorefiend" label="Teron Gorefiend" />
-      <node id="Tichondrius" label="Tichondrius" />
-      <node id="Anub'arak" label="Anub'arak" />
-      <node id="Sapphiron" label="Sapphiron" />
-      <node id="Anveena Teague" label="Anveena Teague" />
-      <node id="Jorad Mace" label="Jorad Mace" />
-      <node id="Kairozdormu" label="Kairozdormu" />
-      <node id="Trag Highmountain" label="Trag Highmountain" />
-      <node id="Tyrygosa" label="Tyrygosa" />
-      <node id="Anzu" label="Anzu" />
-      <node id="Terokk" label="Terokk" />
-      <node id="Kirygosa" label="Kirygosa" />
-      <node id="Azgalor" label="Azgalor" />
-      <node id="Gul'dan" label="Gul'dan" />
-      <node id="Hakkar the Houndmaster" label="Hakkar the Houndmaster" />
-      <node id="Jarod Shadowsong" label="Jarod Shadowsong" />
-      <node id="Yrel" label="Yrel" />
-      <node id="Dranosh Saurfang" label="Dranosh Saurfang" />
-      <node id="Falric" label="Falric" />
-      <node id="Mal'Ganis" label="Mal'Ganis" />
-      <node id="Marwyn" label="Marwyn" />
-      <node id="Thassarian" label="Thassarian" />
-      <node id="Thoras Trollbane" label="Thoras Trollbane" />
-      <node id="Varimathras" label="Varimathras" />
-      <node id="C'Thun" label="C'Thun" />
-      <node id="Aviana" label="Aviana" />
-      <node id="Goldrinn" label="Goldrinn" />
-      <node id="Aysa Cloudsinger" label="Aysa Cloudsinger" />
-      <node id="Li Li Stormstout" label="Li Li Stormstout" />
-      <node id="Hamuul Runetotem" label="Hamuul Runetotem" />
-      <node id="Huln Highmountain" label="Huln Highmountain" />
-      <node id="Jale Rivermane" label="Jale Rivermane" />
-      <node id="Lasan Skyhorn" label="Lasan Skyhorn" />
-      <node id="Rokhan" label="Rokhan" />
-      <node id="Dal'rend Blackhand" label="Dal'rend Blackhand" />
-      <node id="Durotan" label="Durotan" />
-      <node id="Garad" label="Garad" />
-      <node id="Grand Apothecary Putress" label="Grand Apothecary Putress" />
-      <node id="Rehgar Earthfury" label="Rehgar Earthfury" />
-      <node id="Broxigar" label="Broxigar" />
-      <node id="Varo'then" label="Varo'then" />
-      <node id="Chen Stormstout" label="Chen Stormstout" />
-      <node id="Celebras" label="Celebras" />
-      <node id="Zaetar" label="Zaetar" />
-      <node id="Liu Lang" label="Liu Lang" />
-      <node id="Yu'lon" label="Yu'lon" />
-      <node id="Emperor Shaohao" label="Emperor Shaohao" />
-      <node id="Niuzao" label="Niuzao" />
-      <node id="K'ure" label="K'ure" />
-      <node id="Dagran Thaurissan" label="Dagran Thaurissan" />
-      <node id="Galen Trollbane" label="Galen Trollbane" />
-      <node id="Dargrul" label="Dargrul" />
-      <node id="Ulan Highmountain" label="Ulan Highmountain" />
-      <node id="Koltira Deathweaver" label="Koltira Deathweaver" />
-      <node id="Darius Crowley" label="Darius Crowley" />
-      <node id="Lorna Crowley" label="Lorna Crowley" />
-      <node id="Khaz'goroth" label="Khaz'goroth" />
-      <node id="Sabellian" label="Sabellian" />
-      <node id="Sintharia" label="Sintharia" />
-      <node id="Zuluhed the Whacked" label="Zuluhed the Whacked" />
-      <node id="Dentarg" label="Dentarg" />
-      <node id="Kargath Bladefist" label="Kargath Bladefist" />
-      <node id="Fenris Wolfbrother" label="Fenris Wolfbrother" />
-      <node id="Drek'Thar" label="Drek'Thar" />
-      <node id="Muln Earthfury" label="Muln Earthfury" />
-      <node id="Greatmother Geyah" label="Greatmother Geyah" />
-      <node id="Master Gadrin" label="Master Gadrin" />
-      <node id="Navarrogg" label="Navarrogg" />
-      <node id="Therazane" label="Therazane" />
-      <node id="Torok Bloodtotem" label="Torok Bloodtotem" />
-      <node id="Elisande" label="Elisande" />
-      <node id="Valtrois" label="Valtrois" />
-      <node id="Neptulon" label="Neptulon" />
-      <node id="Gruul the Dragonkiller" label="Gruul the Dragonkiller" />
-      <node id="Tagar Spinebreaker" label="Tagar Spinebreaker" />
-      <node id="Ursoc" label="Ursoc" />
-      <node id="Ursol" label="Ursol" />
-      <node id="Leoroxx" label="Leoroxx" />
-      <node id="Millhouse Manastorm" label="Millhouse Manastorm" />
-      <node id="Vindicator Maraad" label="Vindicator Maraad" />
-      <node id="Zalazane" label="Zalazane" />
-      <node id="Golganneth" label="Golganneth" />
-      <node id="Master Apothecary Faranell" label="Master Apothecary Faranell" />
-      <node id="Grand Empress Shek'zeer" label="Grand Empress Shek'zeer" />
-      <node id="Tortolla" label="Tortolla" />
-      <node id="Kur'talos Ravencrest" label="Kur'talos Ravencrest" />
-      <node id="Lilian Voss" label="Lilian Voss" />
-      <node id="K'ara" label="K'ara" />
-      <node id="Othmar Garithos" label="Othmar Garithos" />
-      <node id="Kang" label="Kang" />
-      <node id="Oculeth" label="Oculeth" />
-      <node id="King Ymiron" label="King Ymiron" />
-      <node id="Silgryn" label="Silgryn" />
-      <node id="Thargas Anvilmar" label="Thargas Anvilmar" />
-      <node id="Mimiron" label="Mimiron" />
-      <node id="Smolderon" label="Smolderon" />
-      <node id="Rastakhan" label="Rastakhan" />
-      <node id="Sen'jin" label="Sen'jin" />
-      <node id="Mogor" label="Mogor" />
-      <node id="Mug'thol" label="Mug'thol" />
-      <node id="Nazgrel" label="Nazgrel" />
-      <node id="Vilnak'dor" label="Vilnak'dor" />
-      <node id="Silas Darkmoon" label="Silas Darkmoon" />
-      <node id="Talon King Ikiss" label="Talon King Ikiss" />
-      <node id="The Monkey King" label="The Monkey King" />
-      <node id="Trade Prince Steamwheedle" label="Trade Prince Steamwheedle" />
-      <node id="Marin Noggenfogger" label="Marin Noggenfogger" />
-      <node id="Baron Revilgaz" label="Baron Revilgaz" />
+      <node id="A'dal" label="A'dal">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Naaru" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Alexstrasza" label="Alexstrasza">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Illidan Stormrage" label="Illidan Stormrage">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kael'thas Sunstrider" label="Kael'thas Sunstrider">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Khadgar" label="Khadgar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Lady Liadrin" label="Lady Liadrin">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Lich King" label="Lich King">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defunct" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="M'uru" label="M'uru">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Naaru" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Maiev Shadowsong" label="Maiev Shadowsong">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Med'an" label="Med'an">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Remulos" label="Remulos">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Keeper" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tirion Fordring" label="Tirion Fordring">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Velen" label="Velen">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Aedelas Blackmoore" label="Aedelas Blackmoore">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Arthas Menethil" label="Arthas Menethil">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Danath Trollbane" label="Danath Trollbane">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Taretha Foxton" label="Taretha Foxton">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Terenas Menethil II" label="Terenas Menethil II">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Thrall" label="Thrall">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Aegwynn" label="Aegwynn">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Blackhand" label="Blackhand">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Cho'gall" label="Cho'gall">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Jaina Proudmoore" label="Jaina Proudmoore">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Llane Wrynn I" label="Llane Wrynn I">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Medivh" label="Medivh">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Meryl Felstorm" label="Meryl Felstorm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nielas Aran" label="Nielas Aran">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Sargeras" label="Sargeras">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Imprisoned" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Valeera Sanguinar" label="Valeera Sanguinar">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Energy" />
+        </attvalues>
+      </node>
+      <node id="Varian Wrynn" label="Varian Wrynn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Aessina" label="Aessina">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Wisp" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Brann Bronzebeard" label="Brann Bronzebeard">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Ironforge" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Elune" label="Elune">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="God" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Malorne" label="Malorne">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Stag" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ysera" label="Ysera">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Aethas Sunreaver" label="Aethas Sunreaver">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Anasterian Sunstrider" label="Anasterian Sunstrider">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="High" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Garrosh Hellscream" label="Garrosh Hellscream">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Mag" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Grand Magister Rommath" label="Grand Magister Rommath">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Halduron Brightwing" label="Halduron Brightwing">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Kalecgos" label="Kalecgos">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blue" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Lor'themar Theron" label="Lor'themar Theron">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Malygos" label="Malygos">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Rhonin" label="Rhonin">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Sylvanas Windrunner" label="Sylvanas Windrunner">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Taran Zhu" label="Taran Zhu">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Vereesa Windrunner" label="Vereesa Windrunner">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="High" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Vol'jin" label="Vol'jin">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Jungle" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Reincarnating" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Agamaggan" label="Agamaggan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Archimonde" label="Archimonde">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Man" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Cenarius" label="Cenarius">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Malfurion Stormrage" label="Malfurion Stormrage">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Mannoroth" label="Mannoroth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Annihilan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defeated" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Rexxar" label="Rexxar">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Agatha" label="Agatha">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Val" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Annhylde the Caller" label="Annhylde the Caller">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Aggramar" label="Aggramar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Eonar" label="Eonar">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Magni Bronzebeard" label="Magni Bronzebeard">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Mountain" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tyr" label="Tyr">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titanic" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Aiden Perenolde" label="Aiden Perenolde">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Orgrim Doomhammer" label="Orgrim Doomhammer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Uther the Lightbringer" label="Uther the Lightbringer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Akama" label="Akama">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Kil'jaeden" label="Kil'jaeden">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Man" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Magtheridon" label="Magtheridon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Annihilan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defeated" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ner'zhul" label="Ner'zhul">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nobundo" label="Nobundo">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Al'Akir" label="Al'Akir">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Air" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Cairne Bloodhoof" label="Cairne Bloodhoof">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Tauren" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Deathwing" label="Deathwing">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Hodir" label="Hodir">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="N'Zoth" label="N'Zoth">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Old" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Presumed" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ra" label="Ra">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titanic" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ragnaros" label="Ragnaros">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Thorim" label="Thorim">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Thunderaan" label="Thunderaan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Air" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Alexandros Mograine" label="Alexandros Mograine">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Balnazzar" label="Balnazzar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Nathrezim" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Baron Rivendare" label="Baron Rivendare">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Darion Mograine" label="Darion Mograine">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Draka" label="Draka">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Normal" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kel'Thuzad" label="Kel'Thuzad">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Muradin Bronzebeard" label="Muradin Bronzebeard">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Dwarf" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Queen Azshara" label="Queen Azshara">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Renault Mograine" label="Renault Mograine">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Arygos" label="Arygos">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blue" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Bolvar Fordragon" label="Bolvar Fordragon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Broll Bearmantle" label="Broll Bearmantle">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Chronormu" label="Chronormu">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Bronze" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ebyssian" label="Ebyssian">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Black" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Eranikus" label="Eranikus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Fandral Staghelm" label="Fandral Staghelm">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Freya" label="Freya">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Galakrond" label="Galakrond">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Proto" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Korialstrasz" label="Korialstrasz">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Loken" label="Loken">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titanic" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nekros Skullcrusher" label="Nekros Skullcrusher">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nozdormu" label="Nozdormu">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Shandris Feathermoon" label="Shandris Feathermoon">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Tyranastrasz" label="Tyranastrasz">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tyrande Whisperwind" label="Tyrande Whisperwind">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Xavius" label="Xavius">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Algalon the Observer" label="Algalon the Observer">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Constellar" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Aman'Thul" label="Aman'Thul">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Odyn" label="Odyn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titanic" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Yogg-Saron" label="Yogg-Saron">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Old" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defeatable" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Alleria Windrunner" label="Alleria Windrunner">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Energy" />
+        </attvalues>
+      </node>
+      <node id="Anduin Lothar" label="Anduin Lothar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Anduin Wrynn" label="Anduin Wrynn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Arator the Redeemer" label="Arator the Redeemer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Dar'Khan Drathir" label="Dar'Khan Drathir">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="High" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Galadin" label="Galadin">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Half" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Gelbin Mekkatorque" label="Gelbin Mekkatorque">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Gnome" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Giramar" label="Giramar">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Half" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kurdran Wildhammer" label="Kurdran Wildhammer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Wildhammer" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="L'ura" label="L'ura">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Magister Umbric" label="Magister Umbric">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nathanos Blightcaller" label="Nathanos Blightcaller">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Forsaken" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Turalyon" label="Turalyon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Varok Saurfang" label="Varok Saurfang">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Xe'ra" label="Xe'ra">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Naaru" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Zendarin Windrunner" label="Zendarin Windrunner">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Zul'jin" label="Zul'jin">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Forest" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Alonsus Faol" label="Alonsus Faol">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Archbishop Benedictus" label="Archbishop Benedictus">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Genn Greymane" label="Genn Greymane">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Worgen" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Moira Thaurissan" label="Moira Thaurissan">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Mountain" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Lei Shen" label="Lei Shen">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Mogu" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Norgannon" label="Norgannon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Wrathion" label="Wrathion">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Black" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Y'Shaarj" label="Y'Shaarj">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Old" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Anachronos" label="Anachronos">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Bronze" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Eitrigg" label="Eitrigg">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Soridormi" label="Soridormi">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Bronze" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Dath'Remar Sunstrider" label="Dath'Remar Sunstrider">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Daelin Proudmoore" label="Daelin Proudmoore">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Garona Halforcen" label="Garona Halforcen">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Energy" />
+        </attvalues>
+      </node>
+      <node id="Hakkar the Soulflayer" label="Hakkar the Soulflayer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Loa" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kilrogg Deadeye" label="Kilrogg Deadeye">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nefarian" label="Nefarian">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Black" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Baine Bloodhoof" label="Baine Bloodhoof">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Tauren" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Chi-Ji" label="Chi-Ji">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="August" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Dagran Thaurissan II" label="Dagran Thaurissan II">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Falstad Wildhammer" label="Falstad Wildhammer">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Wildhammer" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Helya" label="Helya">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Val" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ji Firepaw" label="Ji Firepaw">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Landan Wrynn" label="Landan Wrynn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Liam Greymane" label="Liam Greymane">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Lorewalker Cho" label="Lorewalker Cho">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Magatha Grimtotem" label="Magatha Grimtotem">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Tauren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Mayla Highmountain" label="Mayla Highmountain">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Highmountain" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Onyxia" label="Onyxia">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Black" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Sunwalker Dezco" label="Sunwalker Dezco">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Tauren" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Talanji" label="Talanji">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Zandalari" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Xuen" label="Xuen">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="August" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Zul" label="Zul">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Zandalari" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Antonidas" label="Antonidas">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Teron Gorefiend" label="Teron Gorefiend">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tichondrius" label="Tichondrius">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Nathrezim" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defeated" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Anub'arak" label="Anub'arak">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Crypt" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Sapphiron" label="Sapphiron">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Frost" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Anveena Teague" label="Anveena Teague">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Sacrificed" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Jorad Mace" label="Jorad Mace">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Kairozdormu" label="Kairozdormu">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Bronze" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Trag Highmountain" label="Trag Highmountain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Tauren" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tyrygosa" label="Tyrygosa">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blue" />
+          <attvalue for="3" value="Friendly" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Anzu" label="Anzu">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Terokk" label="Terokk">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Arakkoa" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kirygosa" label="Kirygosa">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blue" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Azgalor" label="Azgalor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Annihilan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defeated" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Gul'dan" label="Gul'dan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Hakkar the Houndmaster" label="Hakkar the Houndmaster">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Fel" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Killable" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Jarod Shadowsong" label="Jarod Shadowsong">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Yrel" label="Yrel">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Draenei" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Dranosh Saurfang" label="Dranosh Saurfang">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Mag" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Falric" label="Falric">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Mal'Ganis" label="Mal'Ganis">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Nathrezim" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Marwyn" label="Marwyn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Thassarian" label="Thassarian">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Thoras Trollbane" label="Thoras Trollbane">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Varimathras" label="Varimathras">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Nathrezim" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="C'Thun" label="C'Thun">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Old" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Defeatable" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Aviana" label="Aviana">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Ancient" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Goldrinn" label="Goldrinn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Wild" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Aysa Cloudsinger" label="Aysa Cloudsinger">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Li Li Stormstout" label="Li Li Stormstout">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Hamuul Runetotem" label="Hamuul Runetotem">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Tauren" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Huln Highmountain" label="Huln Highmountain">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Highmountain" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Jale Rivermane" label="Jale Rivermane">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Highmountain" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Lasan Skyhorn" label="Lasan Skyhorn">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Highmountain" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Rokhan" label="Rokhan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Jungle" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Baron Revilgaz" label="Baron Revilgaz">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Goblin" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Dal'rend Blackhand" label="Dal'rend Blackhand">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Durotan" label="Durotan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Garad" label="Garad">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Grand Apothecary Putress" label="Grand Apothecary Putress">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Forsaken" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Rehgar Earthfury" label="Rehgar Earthfury">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Broxigar" label="Broxigar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Varo'then" label="Varo'then">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Chen Stormstout" label="Chen Stormstout">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Celebras" label="Celebras">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Zaetar" label="Zaetar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Keeper" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Liu Lang" label="Liu Lang">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Yu'lon" label="Yu'lon">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="August" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Energy" />
+        </attvalues>
+      </node>
+      <node id="Emperor Shaohao" label="Emperor Shaohao">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Niuzao" label="Niuzao">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="August" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="K'ure" label="K'ure">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Naaru" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Dagran Thaurissan" label="Dagran Thaurissan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Dark" />
+          <attvalue for="3" value="Boss" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Galen Trollbane" label="Galen Trollbane">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Forsaken" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Dargrul" label="Dargrul">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Drogbar" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ulan Highmountain" label="Ulan Highmountain">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Highmountain" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Koltira Deathweaver" label="Koltira Deathweaver">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Blood" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Darius Crowley" label="Darius Crowley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Worgen" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Lorna Crowley" label="Lorna Crowley">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Khaz'goroth" label="Khaz'goroth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Sabellian" label="Sabellian">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Black" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Sintharia" label="Sintharia">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Black" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Zuluhed the Whacked" label="Zuluhed the Whacked">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Dentarg" label="Dentarg">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Ogre" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kargath Bladefist" label="Kargath Bladefist">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Fel" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Fenris Wolfbrother" label="Fenris Wolfbrother">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Unknown" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Drek'Thar" label="Drek'Thar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Muln Earthfury" label="Muln Earthfury">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Greatmother Geyah" label="Greatmother Geyah">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Boss" />
+          <attvalue for="2" value="Mag" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Master Gadrin" label="Master Gadrin">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Jungle" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Navarrogg" label="Navarrogg">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Therazane" label="Therazane">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Torok Bloodtotem" label="Torok Bloodtotem">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Highmountain" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Elisande" label="Elisande">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Nightborne" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Valtrois" label="Valtrois">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Neptulon" label="Neptulon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Water" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Gruul the Dragonkiller" label="Gruul the Dragonkiller">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Gronn" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tagar Spinebreaker" label="Tagar Spinebreaker">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Fel" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Killable" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ursoc" label="Ursoc">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Bear" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Ursol" label="Ursol">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Bear" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Leoroxx" label="Leoroxx">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Mok" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Millhouse Manastorm" label="Millhouse Manastorm">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Gnome" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Vindicator Maraad" label="Vindicator Maraad">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Draenei" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Zalazane" label="Zalazane">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Jungle" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Golganneth" label="Golganneth">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Titan" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Master Apothecary Faranell" label="Master Apothecary Faranell">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Forsaken" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Energy" />
+        </attvalues>
+      </node>
+      <node id="Grand Empress Shek'zeer" label="Grand Empress Shek'zeer">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Boss" />
+          <attvalue for="2" value="Mantid" />
+          <attvalue for="3" value="Boss" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Tortolla" label="Tortolla">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kur'talos Ravencrest" label="Kur'talos Ravencrest">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Night" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Imperator Mar'gok (alternate universe)" label="Imperator Mar'gok (alternate universe)">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Ogre" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Lilian Voss" label="Lilian Voss">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Forsaken" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Energy" />
+        </attvalues>
+      </node>
+      <node id="K'ara" label="K'ara">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Othmar Garithos" label="Othmar Garithos">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Human" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Kang" label="Kang">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Pandaren" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Oculeth" label="Oculeth">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Undefined" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="King Ymiron" label="King Ymiron">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Undefined" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Silgryn" label="Silgryn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Nightborne" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Thargas Anvilmar" label="Thargas Anvilmar">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Alliance" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Mimiron" label="Mimiron">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Undefined" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Active" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Smolderon" label="Smolderon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Fire" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Unknown" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Marin Noggenfogger" label="Marin Noggenfogger">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Goblin" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Rastakhan" label="Rastakhan">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Zandalari" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Sen'jin" label="Sen'jin">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Jungle" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Mogor" label="Mogor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Ogre" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Killable" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Mug'thol" label="Mug'thol">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Ogre" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Killable" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Nazgrel" label="Nazgrel">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Orc" />
+          <attvalue for="3" value="Horde" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Vilnak'dor" label="Vilnak'dor">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Zandalari" />
+          <attvalue for="3" value="Combat" />
+          <attvalue for="4" value="Deceased" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
+      <node id="Silas Darkmoon" label="Silas Darkmoon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Gnome" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Talon King Ikiss" label="Talon King Ikiss">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Elite" />
+          <attvalue for="2" value="Arakkoa" />
+          <attvalue for="3" value="Boss" />
+          <attvalue for="4" value="Killable" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="The Monkey King" label="The Monkey King">
+        <attvalues>
+          <attvalue for="0" value="Undefined" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Hozen" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Mana" />
+        </attvalues>
+      </node>
+      <node id="Trade Prince Steamwheedle" label="Trade Prince Steamwheedle">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Undefined" />
+          <attvalue for="2" value="Goblin" />
+          <attvalue for="3" value="Neutral" />
+          <attvalue for="4" value="Alive" />
+          <attvalue for="5" value="Undefined" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
       <edge source="A'dal" target="Alexstrasza" id="0" />
