@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 *.gz
+data/wow_chars/*
