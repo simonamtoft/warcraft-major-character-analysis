@@ -53,7 +53,7 @@ if __name__ == "__main__":
         txt = get_main_from(response)
 
         # we know all redirect pages are also mentioned as the real page
-        if '#REDIRECT' in txt:
+        if '#REDIRECT' in txt or '#redirect' in txt:
             continue
 
         # save character page as file
