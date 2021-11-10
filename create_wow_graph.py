@@ -35,7 +35,7 @@ for name, path in zip(name_list, path_list):
     infobox = next(template for template in txt_parsed if 'Npcbox' in template.name.title())
     infobox_dict = dict([arg.name.strip(), arg.value.strip()] for arg in infobox.arguments)
 
-
+    # get desired attributes from infobox
     race, gender, faction, status = 'Unknown', 'Unknown', 'Unknown', 'Unknown' 
     if 'race' in infobox_dict:
         race = re.sub(r'\s?<.*>', '', infobox_dict['race'])
