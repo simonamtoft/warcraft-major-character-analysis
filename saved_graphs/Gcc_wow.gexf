@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-11-09">
+  <meta lastmodifieddate="2021-11-10">
     <creator>NetworkX 2.5.1</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -22,7 +22,7 @@
       <node id="Alexstrasza" label="Alexstrasza">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Red Drake" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -30,7 +30,7 @@
       <node id="Illidan Stormrage" label="Illidan Stormrage">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Demon" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -62,7 +62,7 @@
       <node id="Lich King" label="Lich King">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Undead" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Defunct" />
         </attvalues>
@@ -86,7 +86,7 @@
       <node id="Med'an" label="Med'an">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Half-Orc" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -110,7 +110,7 @@
       <node id="Velen" label="Velen">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Draenei" />
           <attvalue for="2" value="Alliance" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -182,7 +182,7 @@
       <node id="Cho'gall" label="Cho'gall">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Ogre Mage" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -230,7 +230,7 @@
       <node id="Sargeras" label="Sargeras">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Titan" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Imprisoned" />
         </attvalues>
@@ -286,7 +286,7 @@
       <node id="Ysera" label="Ysera">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Green Drake" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
@@ -350,7 +350,7 @@
       <node id="Malygos" label="Malygos">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Blue Drake" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -366,7 +366,7 @@
       <node id="Sylvanas Windrunner" label="Sylvanas Windrunner">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Forsaken" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
@@ -398,7 +398,7 @@
       <node id="Agamaggan" label="Agamaggan">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Boar" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -414,7 +414,7 @@
       <node id="Cenarius" label="Cenarius">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Wild God" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -438,7 +438,7 @@
       <node id="Rexxar" label="Rexxar">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Half-Ogre" />
           <attvalue for="2" value="Horde" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -510,7 +510,7 @@
       <node id="Uther the Lightbringer" label="Uther the Lightbringer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Kyrian" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
@@ -518,7 +518,7 @@
       <node id="Akama" label="Akama">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Broken" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -566,7 +566,7 @@
       <node id="Deathwing" label="Deathwing">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Black Drake" />
           <attvalue for="2" value="Combat" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -584,13 +584,13 @@
           <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Old God" />
           <attvalue for="2" value="Neutral" />
-          <attvalue for="3" value="Presumed deceased" />
+          <attvalue for="3" value="Presumed" />
         </attvalues>
       </node>
       <node id="Ra" label="Ra">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Titanic Watcher " />
+          <attvalue for="1" value="Titanic Watcher" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -598,7 +598,7 @@
       <node id="Ragnaros" label="Ragnaros">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Fire Elemental" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -622,7 +622,7 @@
       <node id="Alexandros Mograine" label="Alexandros Mograine">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Maldraxxi" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
@@ -654,7 +654,7 @@
       <node id="Draka" label="Draka">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Maldraxxi" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
@@ -662,7 +662,7 @@
       <node id="Kel'Thuzad" label="Kel'Thuzad">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Lich" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -678,7 +678,7 @@
       <node id="Queen Azshara" label="Queen Azshara">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Naga" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -766,7 +766,7 @@
       <node id="Korialstrasz" label="Korialstrasz">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Red Drake" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -790,7 +790,7 @@
       <node id="Nozdormu" label="Nozdormu">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Bronze Drake" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -822,7 +822,7 @@
       <node id="Xavius" label="Xavius">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Satyr" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased/Unknown" />
         </attvalues>
@@ -862,7 +862,7 @@
       <node id="Alleria Windrunner" label="Alleria Windrunner">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Void Elf" />
           <attvalue for="2" value="Alliance" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -886,7 +886,7 @@
       <node id="Arator the Redeemer" label="Arator the Redeemer">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Half-Elf" />
           <attvalue for="2" value="Alliance" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -942,7 +942,7 @@
       <node id="Magister Umbric" label="Magister Umbric">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Void Elf" />
           <attvalue for="2" value="Alliance" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -998,7 +998,7 @@
       <node id="Alonsus Faol" label="Alonsus Faol">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Forsaken" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
@@ -1086,7 +1086,7 @@
       <node id="Dath'Remar Sunstrider" label="Dath'Remar Sunstrider">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="High Elf" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -1102,7 +1102,7 @@
       <node id="Garona Halforcen" label="Garona Halforcen">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Half-Orc" />
           <attvalue for="2" value="Horde" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -1150,7 +1150,7 @@
       <node id="Dagran Thaurissan II" label="Dagran Thaurissan II">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Dwarf" />
           <attvalue for="2" value="Alliance" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -1270,7 +1270,7 @@
       <node id="Teron Gorefiend" label="Teron Gorefiend">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Orc" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -1302,7 +1302,7 @@
       <node id="Anveena Teague" label="Anveena Teague">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Human" />
           <attvalue for="2" value="Unknown" />
           <attvalue for="3" value="Sacrificed" />
         </attvalues>
@@ -1318,7 +1318,7 @@
       <node id="Kairozdormu" label="Kairozdormu">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Bronze Drake " />
+          <attvalue for="1" value="Bronze Drake" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -1342,7 +1342,7 @@
       <node id="Anzu" label="Anzu">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Dread Raven" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
@@ -1822,7 +1822,7 @@
       <node id="Therazane" label="Therazane">
         <attvalues>
           <attvalue for="0" value="Female" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Earth Elemental" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -1942,7 +1942,7 @@
       <node id="Tortolla" label="Tortolla">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Turtle" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -2006,7 +2006,7 @@
       <node id="Thargas Anvilmar" label="Thargas Anvilmar">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Ironforge Dwarf" />
           <attvalue for="2" value="Alliance" />
           <attvalue for="3" value="Alive" />
         </attvalues>
@@ -2014,7 +2014,7 @@
       <node id="Mimiron" label="Mimiron">
         <attvalues>
           <attvalue for="0" value="Male" />
-          <attvalue for="1" value="Unknown" />
+          <attvalue for="1" value="Titanic Watcher" />
           <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
