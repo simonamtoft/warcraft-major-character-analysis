@@ -2,6 +2,7 @@ import re
 import numpy as np
 import networkx as nx
 from glob import glob
+import wikitextparser as wtp
 
 
 def fix_attr(attr):
@@ -22,43 +23,48 @@ name_list = [
     for path in path_list
 ]
 
-# Create Graph with attributes
+## Create Graph with attributes
 G = nx.DiGraph()
 for name, path in zip(name_list, path_list):
     # read text from downloaded character file 
     with open(path, 'r', encoding='utf-8') as f:
         txt = f.read()
     
-    # extract information about the character
-    gender = fix_attr(re.findall(r'\| ?(?:gender|sex) ?= ?([\w]+)(?:<.+>)?\n', txt))
-    race = fix_attr(re.findall(r'\| ?(?:race) ?= ?(.+)\n', txt))
-    faction = fix_attr(re.findall(r'\| ?(?:faction) ?= ?(.+)\n', txt))
-    status = fix_attr(re.findall(r'\| ?status *= ?(.+)\n', txt))
-    # type_ = fix_attr(re.findall(r'\n\| ?(?:type) ?= ?(.+)\n', txt)) # wasn't that interesting
-    # resource = fix_attr(re.findall(r'\| *(?:resource) *= *(.+)\n', txt)) # too many "Unknown"
+    # get all fields from infobox
+    txt_parsed = wtp.parse(txt).templates
+    infobox = next(template for template in txt_parsed if 'Npcbox' in template.name.title())
+    infobox_dict = dict([arg.name.strip(), arg.value.strip()] for arg in infobox.arguments)
 
-    # take care of some specific race problems
-    race = race.title().replace('Dragon', 'Drake')
 
-    # remove comment about faction
-    faction = faction.split('<')[0].strip()
+    race, gender, faction, status = 'Unknown', 'Unknown', 'Unknown', 'Unknown' 
+    if 'race' in infobox_dict:
+        race = re.sub(r'\s?<.*>', '', infobox_dict['race'])
+    elif 'races' in infobox_dict:
+        race = re.sub(r'\s?<.*>', '', infobox_dict['races'])
+        if '[[' in race:
+            race = re.findall(r'\[\[(.*?)(?:[\|#].*?)?\]\]', race)[0]
+    if race != 'Unknown':
+        race = race.title().replace('Dragon', 'Drake')
+    
+    if 'gender' in infobox_dict:
+        gender = re.sub(r'\s?<.*>', '', infobox_dict['gender'])
+    elif 'sex' in infobox_dict:
+        gender = re.sub(r'\s?<.*>', '', infobox_dict['sex'])
+    
+    if 'faction' in infobox_dict:
+        faction = re.sub(r'\s?<.*>', '', infobox_dict['faction'])
 
-    # remove space
-    for char in '<,;({':
-        status = status.split(char)[0]
-    status = status.strip()
-
-    # remove specifics from resource
-    resource = resource.split('(')[0].strip()
+    if 'status' in infobox_dict:
+        status = re.sub(r'\s?<.*>', '', infobox_dict['status'])
+        status = re.sub(r'[,;]', '', status.split(' ')[0])
 
     # add node with attributes
     G.add_node(
-        name, gender=gender, 
+        name, 
+        gender=gender, 
         race=race, 
         faction=faction, 
-        status=status, 
-        # type=type_, 
-        # resource=resource
+        status=status,
     )
 
     # find all links on page
