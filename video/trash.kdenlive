@@ -1,10 +1,400 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt LC_NUMERIC="C" producer="main_bin" version="7.1.0" root="C:/Users/janus/Desktop">
+<mlt LC_NUMERIC="C" producer="main_bin" version="7.1.0" root="C:/Users/janus/Desktop/warcraft-major-character-analysis/video">
  <profile frame_rate_num="25" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 25 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
+ <producer id="producer1" in="00:00:00.000" out="00:02:56.160">
+  <property name="length">4405</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/janus/Downloads/World of Warcraft Cinematic Trailer.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">2469985</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">44100</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">128013</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">4</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:file_size">57327662</property>
+  <property name="kdenlive:file_hash">582ec6f9cac52ab0205975ad13c91765</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:audio_max1">235</property>
+ </producer>
+ <producer id="producer2" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">A lot of peo...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="343" y="459">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1236" font-color="255,255,255,255">A lot of people play through games, spending days, &#xd;
+weeks or years of game time&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:file_hash">068c3b15c1451b1097453e5c34d6889f</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer3" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">without paying attention to the actual characters they are interacting with in-game.</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="416" y="463">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1097" font-color="255,255,255,255">Without paying attention to the actual &#xd;
+characters they are interacting with in-game.&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:file_hash">068c3b15c1451b1097453e5c34d6889f</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer4" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">we will anal...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="634" y="435">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="614" font-color="255,255,255,255">we will analyse the major&#xd;
+ characters in Warcraft&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">8</property>
+  <property name="kdenlive:file_hash">7475f8268626707296e766036fb2f7de</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer5" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">by creating ...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="591" y="453">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="774" font-color="255,255,255,255">by creating a graph of the major&#xd;
+ characters from wowpedia&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">9</property>
+  <property name="kdenlive:file_hash">b02ebbbc1fce70528b229243ae5501e2</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer6" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">We will unco...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="356" y="501">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="76" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1235" font-color="255,255,255,255">We will uncover things about the major characters &lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:file_hash">a01a6bd098d82651235491b06aa535c5</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer7" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">In order to ...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="419" y="493">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="76" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1161" font-color="255,255,255,255">In order to enhance players in-game experience&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:file_hash">89b9af1f38ba542396f126706c34e5d9</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer9" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Major charac...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="460" y="439">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="980" font-color="255,255,255,255">Major character pages from wowpedia &#xd;
+264 files, ~8MB&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">12</property>
+  <property name="kdenlive:file_hash">aa1b85f9313b9d81cda0c709e64f39ee</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer8" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Enhanced wit...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="223" y="452">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1480" font-color="255,255,255,255">Enhanced with user comments per character from wowhead &#xd;
+241 files, ~18MB&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">13</property>
+  <property name="kdenlive:file_hash">c11d32274a04944f14783dd16d856ae1</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer12" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Resulting Wa...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="439" y="438">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1111" font-color="255,255,255,255">Resulting Warcraft Major character network&#xd;
+264 nodes, 4006 edges&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">14</property>
+  <property name="kdenlive:file_hash">914b647c496034ad8d595d748197b92c</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer10" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Extracted GC...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="654" y="444">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="545" font-color="255,255,255,255">Extracted GCC&#xd;
+261 nodes, 4005 edges&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">15</property>
+  <property name="kdenlive:file_hash">eaa7457777b0a1768739ce7744984143</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer11" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">Node attribu...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;
+ &lt;item type="QGraphicsTextItem" z-index="0">&#xd;
+  &lt;position x="777" y="341">&#xd;
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;
+  &lt;/position>&#xd;
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="380" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="407" font-color="255,255,255,255">Node attributes: &#xd;
+-Gender&#xd;
+- Faction&#xd;
+-Status&#xd;
+-Race&lt;/content>&#xd;
+ &lt;/item>&#xd;
+ &lt;startviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;endviewport rect="0,0,1920,1080"/>&#xd;
+ &lt;background color="0,0,0,0"/>&#xd;
+&lt;/kdenlivetitle>&#xd;
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">16</property>
+  <property name="kdenlive:file_hash">5e99bcf1046f1bdd34b496cef5c30bba</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
  <producer id="producer0" in="00:00:00.000" out="00:02:39.240">
   <property name="length">3982</property>
   <property name="eof">pause</property>
-  <property name="resource">warcraft-major-character-analysis/video/► WARCRAFT 3 REFORGED Cinematic (4K60) ARTHAS' BETRAYAL.mp4</property>
+  <property name="resource">WC3 Cinematic Arthas' Betrayal.mp4</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">60</property>
@@ -53,407 +443,20 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:id">17</property>
   <property name="kdenlive:file_size">64910972</property>
   <property name="kdenlive:file_hash">80258bbd65ae424d5c08e73f92934afd</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
   <property name="kdenlive:audio_max1">200</property>
- </producer>
- <producer id="producer1" in="00:00:00.000" out="00:02:56.160">
-  <property name="length">4405</property>
-  <property name="eof">pause</property>
-  <property name="resource">C:/Users/janus/Downloads/World of Warcraft Cinematic Trailer.mp4</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">2469985</property>
-  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
-  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">44100</property>
-  <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">aac</property>
-  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">128013</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
-  <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
-  <property name="meta.attr.major_brand.markup">isom</property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
-  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">4</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.has_b_frames">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">2</property>
-  <property name="kdenlive:file_size">57327662</property>
-  <property name="kdenlive:file_hash">582ec6f9cac52ab0205975ad13c91765</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <property name="kdenlive:audio_max1">235</property>
- </producer>
- <producer id="producer2" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">A lot of peo...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="343" y="459">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1236" font-color="255,255,255,255">A lot of people play through games, spending days, 
-weeks or years of game time&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">8</property>
-  <property name="kdenlive:file_hash">068c3b15c1451b1097453e5c34d6889f</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer3" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">without paying attention to the actual characters they are interacting with in-game.</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="416" y="463">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1097" font-color="255,255,255,255">Without paying attention to the actual 
-characters they are interacting with in-game.&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">9</property>
-  <property name="kdenlive:file_hash">068c3b15c1451b1097453e5c34d6889f</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer4" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">we will anal...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="634" y="435">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="614" font-color="255,255,255,255">we will analyse the major
- characters in Warcraft&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">10</property>
-  <property name="kdenlive:file_hash">7475f8268626707296e766036fb2f7de</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer5" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">by creating ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="591" y="453">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="774" font-color="255,255,255,255">by creating a graph of the major
- characters from wowpedia&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">11</property>
-  <property name="kdenlive:file_hash">b02ebbbc1fce70528b229243ae5501e2</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer6" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">We will unco...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="356" y="501">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="76" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1235" font-color="255,255,255,255">We will uncover things about the major characters &lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">12</property>
-  <property name="kdenlive:file_hash">a01a6bd098d82651235491b06aa535c5</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer7" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">In order to ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="419" y="493">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="76" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1161" font-color="255,255,255,255">In order to enhance players in-game experience&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">13</property>
-  <property name="kdenlive:file_hash">89b9af1f38ba542396f126706c34e5d9</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer8" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Enhanced wit...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="223" y="452">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1480" font-color="255,255,255,255">Enhanced with user comments per character from wowhead 
-241 files, ~18MB&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">15</property>
-  <property name="kdenlive:file_hash">c11d32274a04944f14783dd16d856ae1</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer9" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Major charac...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="460" y="439">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="980" font-color="255,255,255,255">Major character pages from wowpedia 
-264 files, ~8MB&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">14</property>
-  <property name="kdenlive:file_hash">aa1b85f9313b9d81cda0c709e64f39ee</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer10" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Extracted GC...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="654" y="444">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="545" font-color="255,255,255,255">Extracted GCC
-261 nodes, 4005 edges&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">17</property>
-  <property name="kdenlive:file_hash">eaa7457777b0a1768739ce7744984143</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer11" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Node attribu...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="777" y="341">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="380" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="407" font-color="255,255,255,255">Node attributes: 
--Gender
-- Faction
--Status
--Race&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">18</property>
-  <property name="kdenlive:file_hash">5e99bcf1046f1bdd34b496cef5c30bba</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
- </producer>
- <producer id="producer12" in="00:00:00.000" out="00:00:04.960">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource"/>
-  <property name="progressive">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="seekable">1</property>
-  <property name="mlt_service">kdenlivetitle</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:clipname">Resulting Wa...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
- &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="439" y="438">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
-  &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="Dosis" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1111" font-color="255,255,255,255">Resulting Warcraft Major character network
-264 nodes, 4006 edges&lt;/content>
- &lt;/item>
- &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="0,0,1920,1080"/>
- &lt;background color="0,0,0,0"/>
-&lt;/kdenlivetitle>
-</property>
-  <property name="kdenlive:folderid">6</property>
-  <property name="kdenlive:id">16</property>
-  <property name="kdenlive:file_hash">914b647c496034ad8d595d748197b92c</property>
-  <property name="force_reload">0</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
  </producer>
  <playlist id="main_bin">
-  <property name="kdenlive:docproperties.activeTrack">3</property>
+  <property name="kdenlive:folder.-1.4">Videos</property>
+  <property name="kdenlive:folder.-1.5">Pictures</property>
+  <property name="kdenlive:folder.-1.6">Text</property>
+  <property name="kdenlive:docproperties.activeTrack">2</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
-  <property name="kdenlive:docproperties.audioTarget">-1</property>
+  <property name="kdenlive:docproperties.audioTarget">1</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
   <property name="kdenlive:docproperties.documentid">1636547212940</property>
   <property name="kdenlive:docproperties.enableTimelineZone">0</property>
@@ -462,37 +465,31 @@ characters they are interacting with in-game.&lt;/content>
   <property name="kdenlive:docproperties.externalproxyparams"/>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.kdenliveversion">21.08.3</property>
-  <property name="kdenlive:docproperties.position">1804</property>
-  <property name="kdenlive:docproperties.previewextension"/>
-  <property name="kdenlive:docproperties.previewparameters"/>
-  <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
-  <property name="kdenlive:docproperties.proxyextension"/>
-  <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
-  <property name="kdenlive:docproperties.proxyimagesize">800</property>
-  <property name="kdenlive:docproperties.proxyminsize">1000</property>
-  <property name="kdenlive:docproperties.proxyparams"/>
-  <property name="kdenlive:docproperties.proxyresize">640</property>
-  <property name="kdenlive:docproperties.scrollPos">0</property>
-  <property name="kdenlive:docproperties.seekOffset">30000</property>
-  <property name="kdenlive:docproperties.version">1.04</property>
-  <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videoTarget">-1</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">75</property>
-  <property name="kdenlive:docproperties.zoom">11</property>
-  <property name="kdenlive:expandedFolders">4</property>
-  <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:docproperties.groups">[
     {
         "children": [
             {
-                "data": "2:144",
+                "data": "0:0",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
-                "data": "1:144",
+                "data": "3:0",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:141",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:141",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -513,29 +510,31 @@ characters they are interacting with in-game.&lt;/content>
             }
         ],
         "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "0:0",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "3:0",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
     }
 ]
 </property>
-  <property name="kdenlive:folder.-1.4">Videos</property>
-  <property name="kdenlive:folder.-1.5">Pictures</property>
-  <property name="kdenlive:folder.-1.6">Text</property>
+  <property name="kdenlive:docproperties.kdenliveversion">21.08.3</property>
+  <property name="kdenlive:docproperties.position">3817</property>
+  <property name="kdenlive:docproperties.previewextension"/>
+  <property name="kdenlive:docproperties.previewparameters"/>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
+  <property name="kdenlive:docproperties.proxyextension"/>
+  <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
+  <property name="kdenlive:docproperties.proxyimagesize">800</property>
+  <property name="kdenlive:docproperties.proxyminsize">1000</property>
+  <property name="kdenlive:docproperties.proxyparams"/>
+  <property name="kdenlive:docproperties.proxyresize">640</property>
+  <property name="kdenlive:docproperties.scrollPos">0</property>
+  <property name="kdenlive:docproperties.seekOffset">30000</property>
+  <property name="kdenlive:docproperties.version">1.04</property>
+  <property name="kdenlive:docproperties.verticalzoom">1</property>
+  <property name="kdenlive:docproperties.videoTarget">2</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">75</property>
+  <property name="kdenlive:docproperties.zoom">11</property>
+  <property name="kdenlive:expandedFolders">4</property>
+  <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
-  <entry producer="producer0" in="00:00:00.000" out="00:02:39.240"/>
   <entry producer="producer1" in="00:00:00.000" out="00:02:56.160"/>
   <entry producer="producer2" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:04.960"/>
@@ -543,13 +542,14 @@ characters they are interacting with in-game.&lt;/content>
   <entry producer="producer5" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer6" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer7" in="00:00:00.000" out="00:00:04.960"/>
-  <entry producer="producer8" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer9" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer8" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer12" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer10" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer11" in="00:00:00.000" out="00:00:04.960"/>
-  <entry producer="producer12" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer0" in="00:00:00.000" out="00:02:39.240"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:22:45.040">
+ <producer id="black_track" in="00:00:00.000" out="00:22:44.920">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -635,8 +635,8 @@ characters they are interacting with in-game.&lt;/content>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist0"/>
-  <track hide="both" producer="playlist1"/>
+  <track hide="video" producer="playlist0"/>
+  <track hide="video" producer="playlist1"/>
   <filter id="filter0">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
@@ -660,7 +660,7 @@ characters they are interacting with in-game.&lt;/content>
  <producer id="producer14" in="00:00:00.000" out="00:02:39.240">
   <property name="length">3982</property>
   <property name="eof">pause</property>
-  <property name="resource">warcraft-major-character-analysis/video/► WARCRAFT 3 REFORGED Cinematic (4K60) ARTHAS' BETRAYAL.mp4</property>
+  <property name="resource">WC3 Cinematic Arthas' Betrayal.mp4</property>
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">0</property>
@@ -668,8 +668,8 @@ characters they are interacting with in-game.&lt;/content>
   <property name="seekable">1</property>
   <property name="aspect_ratio">1</property>
   <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:folderid">4</property>
+  <property name="kdenlive:id">17</property>
   <property name="kdenlive:file_size">64910972</property>
   <property name="kdenlive:file_hash">80258bbd65ae424d5c08e73f92934afd</property>
   <property name="kdenlive:audio_max1">200</property>
@@ -721,23 +721,23 @@ characters they are interacting with in-game.&lt;/content>
  </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <blank length="00:00:05.760"/>
+  <blank length="00:00:05.640"/>
   <entry producer="producer14" in="00:00:00.000" out="00:02:39.240">
-   <property name="kdenlive:id">3</property>
+   <property name="kdenlive:id">17</property>
   </entry>
  </playlist>
  <playlist id="playlist3">
   <property name="kdenlive:audio_track">1</property>
  </playlist>
- <tractor id="tractor1" in="00:00:00.000" out="00:02:45.000">
+ <tractor id="tractor1" in="00:00:00.000" out="00:02:44.880">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist2"/>
-  <track hide="both" producer="playlist3"/>
+  <track hide="video" producer="playlist2"/>
+  <track hide="video" producer="playlist3"/>
   <filter id="filter3">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
@@ -761,7 +761,7 @@ characters they are interacting with in-game.&lt;/content>
  <producer id="producer15" in="00:00:00.000" out="00:02:39.240">
   <property name="length">3982</property>
   <property name="eof">pause</property>
-  <property name="resource">warcraft-major-character-analysis/video/► WARCRAFT 3 REFORGED Cinematic (4K60) ARTHAS' BETRAYAL.mp4</property>
+  <property name="resource">WC3 Cinematic Arthas' Betrayal.mp4</property>
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">0</property>
@@ -769,8 +769,8 @@ characters they are interacting with in-game.&lt;/content>
   <property name="seekable">1</property>
   <property name="aspect_ratio">1</property>
   <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:folderid">4</property>
+  <property name="kdenlive:id">17</property>
   <property name="kdenlive:file_size">64910972</property>
   <property name="kdenlive:file_hash">80258bbd65ae424d5c08e73f92934afd</property>
   <property name="kdenlive:audio_max1">200</property>
@@ -821,13 +821,13 @@ characters they are interacting with in-game.&lt;/content>
   <property name="set.test_image">0</property>
  </producer>
  <playlist id="playlist4">
-  <blank length="00:00:05.760"/>
+  <blank length="00:00:05.640"/>
   <entry producer="producer15" in="00:00:00.000" out="00:02:39.240">
-   <property name="kdenlive:id">3</property>
+   <property name="kdenlive:id">17</property>
   </entry>
  </playlist>
  <playlist id="playlist5"/>
- <tractor id="tractor2" in="00:00:00.000" out="00:02:45.000">
+ <tractor id="tractor2" in="00:00:00.000" out="00:02:44.880">
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -895,14 +895,75 @@ characters they are interacting with in-game.&lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer id="producer17" in="00:00:00.000" out="00:02:56.160">
+  <property name="length">4405</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:/Users/janus/Downloads/World of Warcraft Cinematic Trailer.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">4</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:file_size">57327662</property>
+  <property name="kdenlive:file_hash">582ec6f9cac52ab0205975ad13c91765</property>
+  <property name="kdenlive:audio_max1">235</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">2469985</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">44100</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">128013</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf56.25.101</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </producer>
  <playlist id="playlist6">
   <entry producer="producer16" in="00:00:00.000" out="00:00:13.040">
    <property name="kdenlive:id">2</property>
   </entry>
   <blank length="00:00:12.040"/>
   <entry producer="producer2" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">8</property>
-   <property name="kdenlive:activeeffect">-1</property>
+   <property name="kdenlive:id">3</property>
    <filter id="filter6" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -919,8 +980,7 @@ characters they are interacting with in-game.&lt;/content>
    </filter>
   </entry>
   <entry producer="producer3" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">9</property>
-   <property name="kdenlive:activeeffect">-1</property>
+   <property name="kdenlive:id">7</property>
    <filter id="filter8" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -938,7 +998,7 @@ characters they are interacting with in-game.&lt;/content>
   </entry>
   <blank length="00:00:08.240"/>
   <entry producer="producer4" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">10</property>
+   <property name="kdenlive:id">8</property>
    <property name="kdenlive:activeeffect">1</property>
    <filter id="filter10" out="00:00:01.240">
     <property name="start">1</property>
@@ -958,7 +1018,7 @@ characters they are interacting with in-game.&lt;/content>
    </filter>
   </entry>
   <entry producer="producer5" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">11</property>
+   <property name="kdenlive:id">9</property>
    <filter id="filter12" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -976,7 +1036,7 @@ characters they are interacting with in-game.&lt;/content>
   </entry>
   <blank length="00:00:04.840"/>
   <entry producer="producer6" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">12</property>
+   <property name="kdenlive:id">10</property>
    <filter id="filter14" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -993,7 +1053,7 @@ characters they are interacting with in-game.&lt;/content>
    </filter>
   </entry>
   <entry producer="producer7" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">13</property>
+   <property name="kdenlive:id">11</property>
    <filter id="filter16" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -1011,93 +1071,93 @@ characters they are interacting with in-game.&lt;/content>
   </entry>
   <blank length="00:00:09.360"/>
   <entry producer="producer9" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">14</property>
+   <property name="kdenlive:id">12</property>
    <filter id="filter18" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">0=0;-1=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
    </filter>
    <filter id="filter19" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">0=1;-1=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
   <entry producer="producer8" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">15</property>
+   <property name="kdenlive:id">13</property>
    <filter id="filter20" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">0=0;-1=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
    </filter>
    <filter id="filter21" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">0=1;-1=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
   <blank length="00:00:14.000"/>
   <entry producer="producer12" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">16</property>
+   <property name="kdenlive:id">14</property>
    <filter id="filter22" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">0=0;-1=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
    </filter>
    <filter id="filter23" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">0=1;-1=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
   <entry producer="producer11" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">18</property>
+   <property name="kdenlive:id">16</property>
    <filter id="filter24" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">0=0;-1=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
    </filter>
    <filter id="filter25" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">0=1;-1=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
   <entry producer="producer10" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">17</property>
+   <property name="kdenlive:id">15</property>
    <filter id="filter26" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">0=0;-1=1</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
    </filter>
    <filter id="filter27" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">0=1;-1=0</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
   <blank length="00:00:22.520"/>
-  <entry producer="producer1" in="00:02:43.080" out="00:02:56.120">
+  <entry producer="producer17" in="00:02:43.080" out="00:02:56.120">
    <property name="kdenlive:id">2</property>
   </entry>
  </playlist>
@@ -1111,7 +1171,7 @@ characters they are interacting with in-game.&lt;/content>
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
  </tractor>
- <tractor id="tractor4" in="00:00:00.000" out="00:22:45.040">
+ <tractor id="tractor4" in="00:00:00.000" out="00:22:44.920">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
