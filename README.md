@@ -3,4 +3,4 @@ Analysis of the [Major characters inWarcraft](https://wowpedia.fandom.com/wiki/M
 
 
 
-[YouTube Video for Part A](https://studio.youtube.com/channel/UCpiSJbzLHGIEydy4kVmVp4Q)
+[YouTube Video for Part A](https://www.youtube.com/watch?v=JJx5f5nSYfs)
