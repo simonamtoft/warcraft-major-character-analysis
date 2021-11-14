@@ -70,18 +70,19 @@
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">A lot of peo...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="343" y="459">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1236" font-color="255,255,255,255">A lot of people play through games, spending days, &#xd;&#xd;
-weeks or years of game time&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="178" y="432">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="216" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1564" font-color="255,255,255,255">A lot of people play through games, spending days, 
+
+weeks or years of game time&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">3</property>
@@ -100,18 +101,19 @@ weeks or years of game time&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">without paying attention to the actual characters they are interacting with in-game.</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="416" y="463">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1097" font-color="255,255,255,255">Without paying attention to the actual &#xd;&#xd;
-characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="274" y="432">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="216" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1372" font-color="255,255,255,255">Without paying attention to the actual 
+
+characters they are interacting with in-game.&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">7</property>
@@ -130,18 +132,19 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">we will anal...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="634" y="435">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="614" font-color="255,255,255,255">we will analyse the major&#xd;&#xd;
- characters in Warcraft&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="572" y="432">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;3;3" font-underline="0" box-height="216" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="775" font-color="255,255,255,255">we will analyse the major
+
+ characters in Warcraft&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">8</property>
@@ -160,18 +163,18 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">by creating ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="591" y="453">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="774" font-color="255,255,255,255">by creating a graph of the major&#xd;&#xd;
- characters from wowpedia&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="470" y="466">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;3;3" font-underline="0" box-height="144" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="979" font-color="255,255,255,255">by creating a graph of the major
+ characters from wowpedia&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">9</property>
@@ -190,17 +193,17 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">We will unco...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="356" y="501">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="76" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1235" font-color="255,255,255,255">We will uncover things about the major characters &lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="186" y="504">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;3;3" font-underline="0" box-height="72" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1548" font-color="255,255,255,255">We will uncover things about the major characters &lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">10</property>
@@ -219,17 +222,17 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">In order to ...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="419" y="493">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="76" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1161" font-color="255,255,255,255">In order to enhance players in-game experience&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="232" y="504">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;3;3" font-underline="0" box-height="72" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1455" font-color="255,255,255,255">In order to enhance players in-game experience&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">11</property>
@@ -248,18 +251,19 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">Major charac...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="460" y="439">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="980" font-color="255,255,255,255">Major character pages from wowpedia &#xd;&#xd;
-264 files, ~8MB&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="367" y="430">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;2;3;3" font-underline="0" box-height="216" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0.3" box-width="1183" font-color="255,255,255,255">Major character pages from wowpedia 
+
+264 files, ~8MB&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">12</property>
@@ -278,18 +282,20 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">Enhanced wit...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="223" y="452">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1480" font-color="255,255,255,255">Enhanced with user comments per character from wowhead &#xd;&#xd;
-241 files, ~18MB&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="275" y="394">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;4;4" font-underline="0" box-height="288" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1366" font-color="255,255,255,255">Enhanced with user comments per character 
+downloaded from wowhead 
+
+241 files, ~18MB&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">13</property>
@@ -308,18 +314,19 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">Resulting Wa...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="439" y="438">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1111" font-color="255,255,255,255">Resulting Warcraft Major character network&#xd;&#xd;
-264 nodes, 4006 edges&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="291" y="432">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="216" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1338" font-color="255,255,255,255">Resulting Warcraft Major character network
+
+264 nodes, 4006 edges&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">14</property>
@@ -338,18 +345,19 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">Extracted GC...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="654" y="444">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="152" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="545" font-color="255,255,255,255">Extracted GCC&#xd;&#xd;
-261 nodes, 4005 edges&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="611" y="432">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="216" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="698" font-color="255,255,255,255">Extracted GCC
+
+261 nodes, 4005 edges&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">15</property>
@@ -368,21 +376,21 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:duration">125</property>
   <property name="kdenlive:clipname">Node attribu...</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">&#xd;&#xd;
- &lt;item type="QGraphicsTextItem" z-index="0">&#xd;&#xd;
-  &lt;position x="777" y="341">&#xd;&#xd;
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xd;&#xd;
-  &lt;/position>&#xd;&#xd;
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="380" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="407" font-color="255,255,255,255">Node attributes: &#xd;&#xd;
--Gender&#xd;&#xd;
-- Faction&#xd;&#xd;
--Status&#xd;&#xd;
--Race&lt;/content>&#xd;&#xd;
- &lt;/item>&#xd;&#xd;
- &lt;startviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;endviewport rect="0,0,1920,1080"/>&#xd;&#xd;
- &lt;background color="0,0,0,0"/>&#xd;&#xd;
-&lt;/kdenlivetitle>&#xd;&#xd;
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="712" y="360">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="360" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="495" font-color="255,255,255,255">Node attributes:
+- Gender
+- Faction
+- Status
+- Race&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
 </property>
   <property name="kdenlive:folderid">6</property>
   <property name="kdenlive:id">16</property>
@@ -450,11 +458,130 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer id="producer13" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">community pa...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="560" y="468">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content shadow="1;#64000000;3;3;3" font-underline="0" box-height="144" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="75" font-outline="0" box-width="799" font-color="255,255,255,255">community partitions with
+Louvain and by attribute &lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">20</property>
+  <property name="kdenlive:file_hash">e7707ada08cb675525398d89ea258802</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer14" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">doing this b...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="315" y="468">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;3;3" font-underline="0" box-height="144" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" font-outline="0" box-width="1289" font-color="255,255,255,255">doing this both for 
+characters themselves and user comments&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">23</property>
+  <property name="kdenlive:file_hash">d35eac89ca07e838889618dc4b1e9b7c</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer15" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">sentiment an...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="335" y="466">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="1;#64000000;3;3;3" font-underline="0" box-height="144" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="4" font-weight="75" box-width="1247" font-color="255,255,255,255">wordclouds and sentiment analysis
+of individual characters and communities&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">22</property>
+  <property name="kdenlive:file_hash">971803017bf21e57d85fc346e301b2d8</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer id="producer16" in="00:00:00.000" out="00:00:04.960">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:clipname">what do we n...</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="125" LC_NUMERIC="C" width="1920" height="1080" out="124">
+ &lt;item type="QGraphicsTextItem" z-index="0">
+  &lt;position x="684" y="504">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content shadow="1;#64000000;3;3;3" font-underline="0" box-height="72" font-outline-color="0,0,0,255" font="MS Shell Dlg 2" letter-spacing="0" font-pixel-size="60" font-italic="0" typewriter="0;2;1;0;0" alignment="2" font-weight="75" font-outline="0" box-width="552" font-color="255,255,255,255">what do we need?&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:folderid">6</property>
+  <property name="kdenlive:id">21</property>
+  <property name="kdenlive:file_hash">1520ff08ae1e4f25b48bede383be1e6d</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.4">Videos</property>
   <property name="kdenlive:folder.-1.5">Pictures</property>
   <property name="kdenlive:folder.-1.6">Text</property>
-  <property name="kdenlive:docproperties.activeTrack">3</property>
+  <property name="kdenlive:docproperties.activeTrack">1</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.audioTarget">-1</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
@@ -514,7 +641,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">21.08.3</property>
-  <property name="kdenlive:docproperties.position">1411</property>
+  <property name="kdenlive:docproperties.position">3114</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
@@ -529,10 +656,10 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="kdenlive:docproperties.version">1.04</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videoTarget">-1</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">75</property>
-  <property name="kdenlive:docproperties.zoom">11</property>
-  <property name="kdenlive:expandedFolders">4</property>
+  <property name="kdenlive:docproperties.zonein">1227</property>
+  <property name="kdenlive:docproperties.zoneout">1302</property>
+  <property name="kdenlive:docproperties.zoom">10</property>
+  <property name="kdenlive:expandedFolders">5</property>
   <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
   <entry producer="producer1" in="00:00:00.000" out="00:02:56.160"/>
@@ -548,6 +675,10 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <entry producer="producer10" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer11" in="00:00:00.000" out="00:00:04.960"/>
   <entry producer="producer0" in="00:00:00.000" out="00:02:39.240"/>
+  <entry producer="producer13" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer14" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer15" in="00:00:00.000" out="00:00:04.960"/>
+  <entry producer="producer16" in="00:00:00.000" out="00:00:04.960"/>
  </playlist>
  <producer id="black_track" in="00:00:00.000" out="00:22:39.760">
   <property name="length">2147483647</property>
@@ -558,7 +689,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="mlt_image_format">rgb24a</property>
   <property name="set.test_audio">0</property>
  </producer>
- <producer id="producer13" in="00:00:00.000" out="00:02:56.160">
+ <producer id="producer17" in="00:00:00.000" out="00:02:56.160">
   <property name="length">4405</property>
   <property name="eof">pause</property>
   <property name="resource">-1:World of Warcraft Cinematic Trailer.mp4</property>
@@ -617,12 +748,29 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
  </producer>
  <playlist id="playlist0">
   <property name="kdenlive:audio_track">1</property>
-  <entry producer="producer13" in="00:00:00.000" out="00:00:13.040">
+  <entry producer="producer17" in="00:00:00.000" out="00:00:13.040">
    <property name="kdenlive:id">2</property>
+   <filter id="filter0" in="00:00:10.800" out="00:00:13.040">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+   </filter>
   </entry>
   <blank length="00:02:13.600"/>
   <entry producer="producer1" in="00:02:43.080" out="00:02:56.120">
    <property name="kdenlive:id">2</property>
+   <filter id="filter1" in="00:02:43.080" out="00:02:51.080">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
   </entry>
  </playlist>
  <playlist id="playlist1">
@@ -637,27 +785,27 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist0"/>
   <track hide="video" producer="playlist1"/>
-  <filter id="filter0">
+  <filter id="filter2">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter1">
+  <filter id="filter3">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter2">
+  <filter id="filter4">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer14" in="00:00:00.000" out="00:02:39.240">
+ <producer id="producer18" in="00:00:00.000" out="00:02:39.240">
   <property name="length">3982</property>
   <property name="eof">pause</property>
   <property name="resource">WC3 Cinematic Arthas' Betrayal.mp4</property>
@@ -722,7 +870,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <blank length="00:00:05.640"/>
-  <entry producer="producer14" in="00:00:00.000" out="00:02:34.080">
+  <entry producer="producer18" in="00:00:00.000" out="00:02:34.080">
    <property name="kdenlive:id">17</property>
   </entry>
  </playlist>
@@ -738,27 +886,27 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="kdenlive:audio_rec"/>
   <track hide="video" producer="playlist2"/>
   <track hide="video" producer="playlist3"/>
-  <filter id="filter3">
+  <filter id="filter5">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter4">
+  <filter id="filter6">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter5">
+  <filter id="filter7">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer15" in="00:00:00.000" out="00:02:39.240">
+ <producer id="producer19" in="00:00:00.000" out="00:02:39.240">
   <property name="length">3982</property>
   <property name="eof">pause</property>
   <property name="resource">WC3 Cinematic Arthas' Betrayal.mp4</property>
@@ -822,7 +970,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
  </producer>
  <playlist id="playlist4">
   <blank length="00:00:05.640"/>
-  <entry producer="producer15" in="00:00:00.000" out="00:02:34.080">
+  <entry producer="producer19" in="00:00:00.000" out="00:02:34.080">
    <property name="kdenlive:id">17</property>
   </entry>
  </playlist>
@@ -836,7 +984,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <track hide="audio" producer="playlist4"/>
   <track hide="audio" producer="playlist5"/>
  </tractor>
- <producer id="producer16" in="00:00:00.000" out="00:02:56.160">
+ <producer id="producer20" in="00:00:00.000" out="00:02:56.160">
   <property name="length">4405</property>
   <property name="eof">pause</property>
   <property name="resource">-1:World of Warcraft Cinematic Trailer.mp4</property>
@@ -895,7 +1043,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer17" in="00:00:00.000" out="00:02:56.160">
+ <producer id="producer21" in="00:00:00.000" out="00:02:56.160">
   <property name="length">4405</property>
   <property name="eof">pause</property>
   <property name="resource">World of Warcraft Cinematic Trailer.mp4</property>
@@ -958,29 +1106,12 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <property name="set.test_image">0</property>
  </producer>
  <playlist id="playlist6">
-  <entry producer="producer16" in="00:00:00.000" out="00:00:13.040">
+  <entry producer="producer20" in="00:00:00.000" out="00:00:13.040">
    <property name="kdenlive:id">2</property>
   </entry>
   <blank length="00:00:12.040"/>
   <entry producer="producer2" in="00:00:00.000" out="00:00:04.960">
    <property name="kdenlive:id">3</property>
-   <filter id="filter6" out="00:00:01.240">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
-   </filter>
-   <filter id="filter7" in="00:00:03.720" out="00:00:04.960">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
-   </filter>
-  </entry>
-  <entry producer="producer3" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">7</property>
    <filter id="filter8" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -996,11 +1127,28 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
+  <entry producer="producer3" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">7</property>
+   <filter id="filter10" out="00:00:01.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+   </filter>
+   <filter id="filter11" in="00:00:03.720" out="00:00:04.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+   </filter>
+  </entry>
   <blank length="00:00:08.240"/>
   <entry producer="producer4" in="00:00:00.000" out="00:00:04.960">
    <property name="kdenlive:id">8</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter10" out="00:00:01.240">
+   <filter id="filter12" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1008,7 +1156,7 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter11" in="00:00:03.720" out="00:00:04.960">
+   <filter id="filter13" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1019,30 +1167,13 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   </entry>
   <entry producer="producer5" in="00:00:00.000" out="00:00:04.960">
    <property name="kdenlive:id">9</property>
-   <filter id="filter12" out="00:00:01.240">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
-   </filter>
-   <filter id="filter13" in="00:00:03.720" out="00:00:04.960">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
-   </filter>
-  </entry>
-  <blank length="00:00:04.840"/>
-  <entry producer="producer6" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">10</property>
    <filter id="filter14" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter15" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
@@ -1050,16 +1181,19 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer7" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">11</property>
+  <blank length="00:00:04.840"/>
+  <entry producer="producer6" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">10</property>
    <filter id="filter16" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter17" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
@@ -1067,17 +1201,18 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:09.360"/>
-  <entry producer="producer9" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">12</property>
+  <entry producer="producer7" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">11</property>
    <filter id="filter18" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter19" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
@@ -1085,16 +1220,19 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer8" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">13</property>
+  <blank length="00:00:06.480"/>
+  <entry producer="producer9" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">12</property>
    <filter id="filter20" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter21" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
@@ -1102,17 +1240,18 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:14.000"/>
-  <entry producer="producer12" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">14</property>
+  <entry producer="producer8" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">13</property>
    <filter id="filter22" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter23" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
@@ -1120,10 +1259,12 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer11" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">16</property>
+  <blank length="00:00:16.880"/>
+  <entry producer="producer12" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">14</property>
    <filter id="filter24" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
@@ -1139,14 +1280,16 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
    </filter>
   </entry>
-  <entry producer="producer10" in="00:00:00.000" out="00:00:04.960">
-   <property name="kdenlive:id">15</property>
+  <entry producer="producer11" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">16</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter26" out="00:00:01.240">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter27" in="00:00:03.720" out="00:00:04.960">
     <property name="start">1</property>
@@ -1154,10 +1297,105 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:30.120"/>
-  <entry producer="producer17" in="00:02:43.080" out="00:02:56.120">
+  <entry producer="producer10" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">15</property>
+   <filter id="filter28" out="00:00:01.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+   </filter>
+   <filter id="filter29" in="00:00:03.720" out="00:00:04.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:04.440"/>
+  <entry producer="producer16" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">21</property>
+   <filter id="filter30" out="00:00:01.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter31" in="00:00:03.720" out="00:00:04.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer13" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">20</property>
+   <property name="kdenlive:activeeffect">1</property>
+   <filter id="filter32" out="00:00:01.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter33" in="00:00:03.720" out="00:00:04.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer15" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">22</property>
+   <property name="kdenlive:activeeffect">1</property>
+   <filter id="filter34" out="00:00:01.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter35" in="00:00:03.720" out="00:00:04.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer14" in="00:00:00.000" out="00:00:04.960">
+   <property name="kdenlive:id">23</property>
+   <filter id="filter36" out="00:00:01.240">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:01.240=1</property>
+   </filter>
+   <filter id="filter37" in="00:00:03.720" out="00:00:04.960">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.240=0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:05.680"/>
+  <entry producer="producer21" in="00:02:43.080" out="00:02:56.120">
    <property name="kdenlive:id">2</property>
   </entry>
  </playlist>
@@ -1171,12 +1409,21 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
  </tractor>
- <tractor id="tractor4" in="00:00:00.000" out="00:22:39.760">
+ <playlist id="playlist8"/>
+ <playlist id="playlist9"/>
+ <tractor id="tractor4" in="00:00:00.000">
+  <property name="kdenlive:trackheight">67</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <track producer="playlist8"/>
+  <track producer="playlist9"/>
+ </tractor>
+ <tractor id="tractor5" in="00:00:00.000" out="00:22:39.760">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
   <track producer="tractor2"/>
   <track producer="tractor3"/>
+  <track producer="tractor4"/>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -1219,21 +1466,33 @@ characters they are interacting with in-game.&lt;/content>&#xd;&#xd;
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter28">
+  <transition id="transition4">
+   <property name="a_track">0</property>
+   <property name="b_track">5</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <filter id="filter38">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
+   <property name="level">-6.59968</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
-   <property name="disable">1</property>
+   <property name="disable">0</property>
   </filter>
-  <filter id="filter29">
+  <filter id="filter39">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter30">
+  <filter id="filter40">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
