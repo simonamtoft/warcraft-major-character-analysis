@@ -1,3 +1,4 @@
+wheel
 ipykernel
 ipython
 jupyter-client
@@ -9,7 +10,6 @@ matplotlib
 seaborn
 networkx==2.5.1
 Cython
-fa2
 requests
 tqdm
 beautifulsoup4
