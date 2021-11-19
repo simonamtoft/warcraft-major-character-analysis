@@ -1,4 +1,8 @@
 ipykernel
+ipython
+jupyter-client
+jupyter-core
+nltk
 numpy
 pandas
 matplotlib
