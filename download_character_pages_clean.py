@@ -12,6 +12,11 @@ SAVE_FOLDER = './data/wow_chars_clean/'
 
 
 if __name__ == "__main__":
+    # create folder if it doesn't exist
+    if not os.path.exists(SAVE_FOLDER):
+        os.makedirs(SAVE_FOLDER)
+
+    # download every plain text character file from the wiki
     for fname in glob('data/wow_chars/*.txt'):
         # get charname from path
         charname = fname.replace('.txt', '').split('\\')[-1]
@@ -33,10 +38,10 @@ if __name__ == "__main__":
         text = get_plaintext_from(response)
 
         # do some additional cleaning
-        text = re.sub(r'==(.+)==', '', text)        # remove headers
-        text = re.sub('[\n\t]+', ' ', text)         # remove newline + tabs
-        text = re.sub('\[[\w\d\-]+\]', ' ', text)   # remove stuff in brackets []
-        text = re.sub('\s+', ' ', text)             # remove excess spaces
+        text = re.sub(r'==(.+)==', '', text)    # remove headers
+        text = re.sub(r'\n+', ' ', text)        # remove newline
+        text = re.sub(r'\t+', ' ', text)        # remove tabs
+        text = re.sub(r'\s+', ' ', text)         # remove excess spaces
 
         # save cleaned character text file
         with open(savepath, "w", encoding="utf-8") as f:
