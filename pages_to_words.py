@@ -4,8 +4,7 @@ import json
 import nltk
 from glob import glob
 
-# define where to save character pages
-SAVE_FOLDER = './data/wow_chars_words/'
+import config
 
 
 def should_keep(token, remove_words=[]):
@@ -26,13 +25,13 @@ if __name__ == "__main__":
     remove_words = nltk.corpus.stopwords.words('english')
 
     # create folder if it doesn't exist
-    if not os.path.exists(SAVE_FOLDER):
-        os.makedirs(SAVE_FOLDER)
+    if not os.path.exists(config.PATH_WORDS):
+        os.makedirs(config.PATH_WORDS)
     
     # create word file for each cleaned character page
-    for fname in glob('data/wow_chars_clean/*.txt'):
+    for fname in glob(config.PATH_CLEAN + '*.txt'):
         # check if that file is already handled
-        savepath = SAVE_FOLDER + fname.split('\\')[-1]
+        savepath = config.PATH_WORDS + fname.split('\\')[-1]
         if os.path.isfile(savepath):
             continue
 

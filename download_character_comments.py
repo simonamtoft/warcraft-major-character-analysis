@@ -7,15 +7,17 @@ import re
 import time
 from pathlib import Path
 
+import config
+
 # this script requires "download_character_pages.py" to already have been executed
 
-Path("data/char_comments").mkdir(parents=True, exist_ok=True)
+Path(config.PATH_COMMENTS).mkdir(parents=True, exist_ok=True)
 
 base_url = 'https://wowhead.com'
 search_url = f"{base_url}/npcs"
 
 for fn in tqdm(
-    glob('data/wow_chars/*.txt'),
+    glob(config.PATH_CHARS + '*.txt'),
     desc='Fetching comment data'
 ):
     raw_char_name = fn.split('\\')[-1][:-4]
@@ -57,7 +59,7 @@ for fn in tqdm(
         for comment in raw_comments:
             char_comments.append(comment)
 
-    with open(f'data/char_comments/{raw_char_name}.njson', 'w') as f:
+    with open(f'{config.PATH_COMMENTS}{raw_char_name}.njson', 'w') as f:
         f.write('\n'.join(json.dumps(c) for c in char_comments))
 
     

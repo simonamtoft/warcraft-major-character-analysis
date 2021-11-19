@@ -4,17 +4,12 @@ import json
 from glob import glob
 from api import generate_query, get_response_from, get_plaintext_from
 
-# define base API url
-URL_BASE = 'https://wowpedia.fandom.com/api.php'
-
-# define where to save cleantext character pages
-SAVE_FOLDER = './data/wow_chars_clean/'
-
+import config
 
 if __name__ == "__main__":
     # create folder if it doesn't exist
-    if not os.path.exists(SAVE_FOLDER):
-        os.makedirs(SAVE_FOLDER)
+    if not os.path.exists(config.PATH_CLEAN):
+        os.makedirs(config.PATH_CLEAN)
 
     # download every plain text character file from the wiki
     for fname in glob('data/wow_chars/*.txt'):
@@ -22,12 +17,12 @@ if __name__ == "__main__":
         charname = fname.replace('.txt', '').split('\\')[-1]
 
         # get savepath
-        savepath = SAVE_FOLDER + charname + '.txt'
+        savepath = config.PATH_CLEAN + charname + '.txt'
         if os.path.exists(savepath):
             continue
 
         query = generate_query(
-            URL_BASE, charname,
+            config.URL_BASE, charname,
             content='prop=extracts&exlimit=1&explaintext'
         )
 
@@ -47,4 +42,4 @@ if __name__ == "__main__":
         with open(savepath, "w", encoding="utf-8") as f:
             json.dump(text, f, ensure_ascii=False)
 
-    print(f'Downloaded and cleaned {len(glob(SAVE_FOLDER + "*.txt"))} character pages')
+    print(f'Downloaded and cleaned {len(glob(config.PATH_CLEAN + "*.txt"))} character pages')
