@@ -3,12 +3,13 @@ from urllib import request
 from urllib.parse import quote_plus
 
 
-def generate_query(baseurl, title, dataformat="json"):
+def generate_query(baseurl, title, content=None, dataformat="json"):
     # Action for the API
     action = "query"
 
     # Define how and what content to get
-    content = "prop=revisions&rvprop=content&rvslots=*" 
+    if content == None:
+        content = "prop=revisions&rvprop=content&rvslots=*" 
 
     # build title properly
     title = quote_plus(title)
@@ -33,3 +34,8 @@ def get_response_from(query):
 def get_main_from(response):
     pages = response['query']['pages']
     return pages[list(pages.keys())[0]]['revisions'][0]['slots']['main']['*']
+
+
+def get_plaintext_from(response):
+    pages = response['query']['pages']
+    return pages[list(pages.keys())[0]]['extract']
