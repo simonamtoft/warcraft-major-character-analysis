@@ -130,3 +130,4 @@ dmypy.json
 
 *.gz
 data/wow_chars/*
+data/wow_chars_clean/*
