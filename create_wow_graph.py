@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     ## Create Graph with attributes
     G = nx.DiGraph()
-    df = pd.DataFrame()
+    df = pd.DataFrame({'Name': name_list})
     for name, path in zip(name_list, path_list):
         # read text from downloaded character file 
         with open(path, 'r', encoding='utf-8') as f:

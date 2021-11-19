@@ -12,6 +12,10 @@ CHAR_LINK_PATTERN = r'\[\[(.*?)(?:[\|#].*?)?\]\]'
 
 
 if __name__ == "__main__":
+    # create folder if it doesn't exist
+    if not os.path.exists(config.PATH_CHARS):
+        os.makedirs(config.PATH_CHARS)
+
     # generate query and get response from API
     query = generate_query(config.URL_BASE, config.START_TITLE)
     response = get_response_from(query)

@@ -1,0 +1,265 @@
+,Name,Gender,Race,Faction,Status
+0,A'dal,Unknown,Naaru,Neutral,Alive
+1,Aedelas Blackmoore,Male,Human,Neutral,Deceased
+2,Aegwynn,Female,Human,Neutral,Deceased
+3,Aessina,Female,Wisp,Neutral,Unknown
+4,Aethas Sunreaver,Male,Blood Elf,Horde,Alive
+5,Agamaggan,Male,Boar,Neutral,Deceased
+6,Agatha,Female,Val'Kyr,Combat,Deceased
+7,Aggramar,Male,Titan,Neutral,Alive
+8,Aiden Perenolde,Male,Human,Neutral,Deceased
+9,Akama,Male,Broken,Neutral,Alive
+10,Al'Akir,Male,Air Elemental,Neutral,Deceased
+11,Alexandros Mograine,Male,Maldraxxi,Neutral,Active
+12,Alexstrasza,Female,Red Drake,Neutral,Alive
+13,Algalon the Observer,Unknown,Constellar,Neutral,Active
+14,Alleria Windrunner,Female,Void Elf,Alliance,Alive
+15,Alonsus Faol,Male,Forsaken,Neutral,Active
+16,Aman'Thul,Male,Titan,Neutral,Alive
+17,Anachronos,Male,Bronze Drake,Neutral,Alive
+18,Anasterian Sunstrider,Male,High Elf,Neutral,Deceased
+19,Anduin Lothar,Male,Human,Alliance,Deceased
+20,Anduin Wrynn,Male,Human,Alliance,Alive
+21,Annhylde the Caller,Female,Val'Kyr,Combat,Deceased
+22,Antonidas,Male,Human,Alliance,Deceased
+23,Anub'arak,Male,Crypt Lord,Neutral,Deceased
+24,Anveena Teague,Female,Human,Unknown,Sacrificed
+25,Anzu,Male,Dread Raven,Neutral,Deceased
+26,Arator the Redeemer,Male,Half-Elf,Alliance,Alive
+27,Archbishop Benedictus,Male,Human,Neutral,Deceased
+28,Archimonde,Male,Man'Ari Eredar,Neutral,Deceased
+29,Arthas Menethil,Male,Human,Neutral,Deceased
+30,Arygos,Male,Blue Drake,Neutral,Deceased
+31,Aviana,Female,Ancient Guardian,Neutral,Alive
+32,Aysa Cloudsinger,Female,Pandaren,Alliance,Alive
+33,Azgalor,Male,Annihilan,Neutral,Defeated
+34,Baine Bloodhoof,Male,Tauren,Horde,Alive
+35,Balnazzar,Male,Nathrezim,Combat,Deceased
+36,Baron Revilgaz,Male,Goblin,Neutral,Alive
+37,Baron Rivendare,Male,Human,Combat,Active
+38,Blackhand,Male,Orc,Horde,Deceased
+39,Bolvar Fordragon,Male,Human,Neutral,Active
+40,Brann Bronzebeard,Male,Ironforge Dwarf,Alliance,Alive
+41,Broll Bearmantle,Male,Night Elf,Alliance,Alive
+42,Broxigar,Male,Orc,Horde,Deceased
+43,C'Thun,Unknown,Old God,Neutral,Defeatable
+44,Cairne Bloodhoof,Male,Tauren,Horde,Deceased
+45,Celebras,Male,Keeper Of The Grove,Boss,Killable
+46,Cenarius,Male,Wild God,Neutral,Alive
+47,Chen Stormstout,Male,Pandaren,Neutral,Alive
+48,Chi-Ji,Male,August Celestial,Neutral,Alive
+49,Cho'gall,Male,Ogre Mage,Neutral,Deceased
+50,Chronormu,Female,Bronze Drake,Neutral,Alive
+51,Daelin Proudmoore,Male,Human,Alliance,Deceased
+52,Dagran Thaurissan,Male,Dark Iron Dwarf,Boss,Deceased
+53,Dagran Thaurissan II,Male,Dwarf,Alliance,Alive
+54,Dal'rend Blackhand,Male,Orc,Neutral,Deceased
+55,Danath Trollbane,Male,Human,Alliance,Alive
+56,Dar'Khan Drathir,Male,High Elf,Combat,Deceased
+57,Dargrul,Male,Drogbar,Neutral,Deceased
+58,Darion Mograine,Male,Human,Neutral,Active
+59,Darius Crowley,Male,Worgen,Alliance,Alive
+60,Dath'Remar Sunstrider,Male,High Elf,Neutral,Deceased
+61,Deathwing,Male,Black Drake,Combat,Deceased
+62,Dentarg,Male,Ogre Mage,Horde,Deceased
+63,Draka,Female,Maldraxxi,Neutral,Active
+64,Dranosh Saurfang,Unknown,Mag'Har Orc,Neutral,Deceased
+65,Drek'Thar,Male,Orc,Horde,Alive
+66,Durotan,Male,Orc,Neutral,Deceased
+67,Ebyssian,Male,Black Drake,Horde,Alive
+68,Eitrigg,Male,Orc,Horde,Alive
+69,Elisande,Female,Nightborne,Neutral,Deceased
+70,Elune,Female,God,Neutral,Active
+71,Emperor Shaohao,Male,Pandaren,Neutral,Deceased
+72,Eonar,Female,Titan,Neutral,Active
+73,Eranikus,Male,Green Drake,Neutral,Deceased
+74,Falric,Male,Human,Combat,Deceased
+75,Falstad Wildhammer,Male,Wildhammer Dwarf,Alliance,Alive
+76,Fandral Staghelm,Male,Night Elf,Neutral,Deceased
+77,Fenris Wolfbrother,Male,Orc,Horde,Unknown
+78,Freya,Female,Titanic Watcher,Neutral,Alive
+79,Galadin,Unknown,Half-Elf,Alliance,Alive
+80,Galakrond,Male,Proto-Drake,Neutral,Deceased
+81,Galen Trollbane,Male,Forsaken,Neutral,Deceased
+82,Garad,Male,Orc,Neutral,Deceased
+83,Garona Halforcen,Female,Half-Orc,Horde,Alive
+84,Garrosh Hellscream,Male,Mag'Har Orc,Combat,Deceased
+85,Gelbin Mekkatorque,Male,Gnome,Alliance,Alive
+86,Genn Greymane,Male,Worgen,Alliance,Alive
+87,Giramar,Unknown,Half-Elf,Alliance,Alive
+88,Goldrinn,Male,Wild God,Neutral,Alive
+89,Golganneth,Male,Titan,Neutral,Alive
+90,Grand Apothecary Putress,Male,Forsaken,Combat,Deceased
+91,Grand Empress Shek'zeer,Female,Mantid,Boss,Deceased
+92,Grand Magister Rommath,Male,Blood Elf,Horde,Alive
+93,Greatmother Geyah,Female,Mag'Har Orc,Horde,Alive
+94,Gruul the Dragonkiller,Male,Gronn,Neutral,Deceased
+95,Gul'dan,Male,Orc,Neutral,Deceased
+96,Hakkar the Houndmaster,Male,Fel Lord,Neutral,Killable
+97,Hakkar the Soulflayer,Male,Loa,Neutral,Active
+98,Halduron Brightwing,Male,Blood Elf,Horde,Alive
+99,Hamuul Runetotem,Male,Tauren,Horde,Alive
+100,Helya,Female,Val'Kyr,Neutral,Active
+101,Hodir,Male,Titanic Watcher,Neutral,Alive
+102,Huln Highmountain,Male,Highmountain Tauren,Neutral,Active
+103,Illidan Stormrage,Male,Demon,Neutral,Alive
+104,Imperator Mar'gok (alternate universe),Male,Ogre Mage,Neutral,Deceased
+105,Jaina Proudmoore,Female,Human,Alliance,Alive
+106,Jale Rivermane,Female,Highmountain Tauren,Horde,Alive
+107,Jarod Shadowsong,Male,Night Elf,Alliance,Alive
+108,Ji Firepaw,Male,Pandaren,Horde,Alive
+109,Jorad Mace,Male,Human,Alliance,Alive
+110,K'ara,Unknown,Naaru,Neutral,Unknown
+111,K'ure,Unknown,Naaru,Neutral,Active
+112,Kael'thas Sunstrider,Male,Blood Elf,Neutral,Active
+113,Kairozdormu,Male,Bronze Drake,Neutral,Deceased
+114,Kalecgos,Male,Blue Drake,Neutral,Alive
+115,Kang,Male,Pandaren,Neutral,Deceased
+116,Kargath Bladefist,Male,Fel Orc,Neutral,Deceased
+117,Kel'Thuzad,Male,Lich,Neutral,Deceased
+118,Khadgar,Male,Human,Alliance,Alive
+119,Khaz'goroth,Male,Titan,Neutral,Alive
+120,Kil'jaeden,Male,Man'Ari Eredar,Neutral,Deceased
+121,Kilrogg Deadeye,Male,Orc,Horde,Deceased
+122,King Ymiron,Male,Vrykul,Neutral,Alive
+123,Kirygosa,Female,Blue Drake,Neutral,Alive
+124,Koltira Deathweaver,Male,Blood Elf,Horde,Active
+125,Korialstrasz,Male,Red Drake,Neutral,Deceased
+126,Kur'talos Ravencrest,Male,Night Elf,Neutral,Active
+127,Kurdran Wildhammer,Male,Wildhammer Dwarf,Alliance,Alive
+128,L'ura,Female,Naaru,Boss,Killable
+129,Lady Liadrin,Female,Blood Elf,Horde,Alive
+130,Landan Wrynn,Male,Human,Neutral,Deceased
+131,Lasan Skyhorn,Male,Highmountain Tauren,Horde,Alive
+132,Lei Shen,Male,Mogu,Neutral,Deceased
+133,Leoroxx,Male,Mok'Nathal,Horde,Alive
+134,Liam Greymane,Male,Human,Neutral,Deceased
+135,Lich King,Male,Undead,Neutral,Defunct
+136,Lilian Voss,Female,Forsaken,Horde,Active
+137,Liu Lang,Male,Pandaren,Neutral,Deceased
+138,Li Li Stormstout,Female,Pandaren,Neutral,Alive
+139,Llane Wrynn I,Male,Human,Neutral,Deceased
+140,Loken,Male,Titanic Watcher,Combat,Deceased
+141,Lor'themar Theron,Male,Blood Elf,Horde,Alive
+142,Lorewalker Cho,Male,Pandaren,Neutral,Alive
+143,Lorna Crowley,Female,Human,Alliance,Alive
+144,M'uru,Unknown,Naaru,Neutral,Deceased
+145,Magatha Grimtotem,Female,Tauren,Neutral,Alive
+146,Magister Umbric,Male,Void Elf,Alliance,Alive
+147,Magni Bronzebeard,Male,Mountain Dwarf,Alliance,Active
+148,Magtheridon,Male,Annihilan,Neutral,Defeated
+149,Maiev Shadowsong,Female,Night Elf,Alliance,Alive
+150,Mal'Ganis,Male,Nathrezim,Combat,Alive
+151,Malfurion Stormrage,Male,Night Elf,Alliance,Alive
+152,Malorne,Male,Stag,Neutral,Alive
+153,Malygos,Male,Blue Drake,Neutral,Deceased
+154,Mannoroth,Male,Annihilan,Neutral,Defeated
+155,Marin Noggenfogger,Male,Goblin,Neutral,Alive
+156,Marwyn,Male,Human,Combat,Deceased
+157,Master Apothecary Faranell,Male,Forsaken,Horde,Active
+158,Master Gadrin,Male,Jungle Troll,Horde,Alive
+159,Mayla Highmountain,Female,Highmountain Tauren,Horde,Alive
+160,Med'an,Male,Half-Orc,Neutral,Alive
+161,Medivh,Male,Human,Neutral,Active
+162,Meryl Felstorm,Male,Human,Neutral,Active
+163,Millhouse Manastorm,Male,Gnome,Neutral,Alive
+164,Mimiron,Male,Titanic Watcher,Neutral,Active
+165,Mogor,Male,Ogre Mage,Combat,Killable
+166,Moira Thaurissan,Female,Mountain Dwarf,Alliance,Alive
+167,Mug'thol,Male,Ogre,Combat,Killable
+168,Muln Earthfury,Male,Tauren,Neutral,Alive
+169,Muradin Bronzebeard,Male,Dwarf,Alliance,Alive
+170,N'Zoth,Unknown,Old God,Neutral,Presumed
+171,Nathanos Blightcaller,Male,Forsaken,Combat,Deceased
+172,Navarrogg,Male,Drogbar,Neutral,Alive
+173,Nazgrel,Male,Orc,Horde,Alive
+174,Nefarian,Male,Black Drake,Neutral,Deceased
+175,Nekros Skullcrusher,Male,Orc,Horde,Deceased
+176,Neptulon,Male,Water Elemental,Neutral,Alive
+177,Ner'zhul,Male,Orc,Neutral,Deceased
+178,Nielas Aran,Male,Human,Neutral,Deceased
+179,Niuzao,Male,August Celestial,Neutral,Alive
+180,Norgannon,Male,Titan,Neutral,Alive
+181,Nozdormu,Male,Bronze Drake,Neutral,Alive
+182,Odyn,Male,Titanic Watcher,Neutral,Alive
+183,Onyxia,Female,Black Drake,Neutral,Deceased
+184,Orgrim Doomhammer,Male,Orc,Horde,Deceased
+185,Othmar Garithos,Male,Human,Alliance,Deceased
+186,Queen Azshara,Female,Naga,Neutral,Alive
+187,Ra,Male,Titanic Watcher,Neutral,Deceased
+188,Ragnaros,Male,Fire Elemental,Neutral,Deceased
+189,Rastakhan,Male,Zandalari Troll,Horde,Deceased
+190,Rehgar Earthfury,Male,Orc,Horde,Alive
+191,Remulos,Male,Keeper Of The Grove,Neutral,Alive
+192,Renault Mograine,Male,Human,Neutral,Deceased
+193,Rexxar,Male,Half-Ogre,Horde,Alive
+194,Rhonin,Male,Human,Neutral,Deceased
+195,Rokhan,Male,Jungle Troll,Horde,Alive
+196,Sabellian,Male,Black Drake,Neutral,Alive
+197,Sapphiron,Male,Frost Wyrm,Combat,Deceased
+198,Sargeras,Male,Titan,Neutral,Imprisoned
+199,Sen'jin,Male,Jungle Troll,Neutral,Deceased
+200,Shandris Feathermoon,Female,Night Elf,Alliance,Alive
+201,Silas Darkmoon,Male,Gnome,Neutral,Alive
+202,Silgryn,Male,Nightborne,Horde,Alive
+203,Sintharia,Female,Black Drake,Neutral,Active
+204,Smolderon,Male,Fire Elemental,Neutral,Unknown
+205,Soridormi,Female,Bronze Drake,Neutral,Alive
+206,Sunwalker Dezco,Unknown,Tauren,Horde,Alive
+207,Sylvanas Windrunner,Female,Forsaken,Neutral,Active
+208,Tagar Spinebreaker,Male,Fel Orc,Combat,Killable
+209,Talanji,Female,Zandalari Troll,Horde,Alive
+210,Talon King Ikiss,Male,Arakkoa,Boss,Killable
+211,Taran Zhu,Male,Pandaren,Neutral,Alive
+212,Taretha Foxton,Female,Human,Alliance,Deceased
+213,Terenas Menethil II,Male,Human,Alliance,Deceased
+214,Terokk,Male,Arakkoa,Combat,Deceased
+215,Teron Gorefiend,Male,Orc,Neutral,Deceased
+216,Thargas Anvilmar,Male,Ironforge Dwarf,Alliance,Alive
+217,Thassarian,Male,Human,Alliance,Active
+218,Therazane,Female,Earth Elemental,Neutral,Alive
+219,The Monkey King,Male,Hozen,Neutral,Alive
+220,Thoras Trollbane,Male,Human,Neutral,Active
+221,Thorim,Male,Titanic Watcher,Neutral,Alive
+222,Thrall,Male,Orc,Horde,Alive
+223,Thunderaan,Male,Air Elemental,Neutral,Alive
+224,Tichondrius,Male,Nathrezim,Neutral,Defeated
+225,Tirion Fordring,Male,Human,Neutral,Deceased
+226,Torok Bloodtotem,Male,Highmountain Tauren,Combat,Deceased
+227,Tortolla,Male,Turtle,Neutral,Alive
+228,Trade Prince Steamwheedle,Male,Goblin,Neutral,Alive
+229,Trag Highmountain,Male,Tauren,Horde,Active
+230,Turalyon,Male,Human,Alliance,Alive
+231,Tyr,Male,Titanic Watcher,Neutral,Deceased
+232,Tyranastrasz,Male,Red Drake,Unknown,Deceased
+233,Tyrande Whisperwind,Female,Night Elf,Alliance,Alive
+234,Tyrygosa,Female,Blue Drake,Friendly,Alive
+235,Ulan Highmountain,Male,Highmountain Tauren,Neutral,Deceased
+236,Ursoc,Male,Bear,Neutral,Deceased
+237,Ursol,Male,Bear,Neutral,Alive
+238,Uther the Lightbringer,Male,Kyrian,Neutral,Active
+239,Valeera Sanguinar,Female,Blood Elf,Neutral,Alive
+240,Varian Wrynn,Male,Human,Alliance,Deceased
+241,Varimathras,Male,Nathrezim,Neutral,Deceased
+242,Varo'then,Male,Night Elf,Neutral,Deceased
+243,Varok Saurfang,Male,Orc,Horde,Deceased
+244,Velen,Male,Draenei,Alliance,Alive
+245,Vereesa Windrunner,Female,High Elf,Alliance,Alive
+246,Vilnak'dor,Male,Zandalari Troll,Combat,Deceased
+247,Vindicator Maraad,Male,Draenei,Alliance,Deceased
+248,Vol'jin,Male,Jungle Troll,Horde,Reincarnating
+249,Wrathion,Male,Black Drake,Neutral,Alive
+250,Xavius,Male,Satyr,Neutral,Deceased/Unknown
+251,Xe'ra,Female,Naaru,Neutral,Deceased
+252,Xuen,Male,August Celestial,Neutral,Alive
+253,Y'Shaarj,Unknown,Old God,Neutral,Deceased
+254,Yogg-Saron,Unknown,Old God,Neutral,Defeatable
+255,Yrel,Female,Draenei,Neutral,Alive
+256,Ysera,Female,Green Drake,Neutral,Active
+257,Yu'lon,Female,August Celestial,Neutral,Alive
+258,Zaetar,Male,Keeper Of The Grove,Neutral,Deceased
+259,Zalazane,Male,Jungle Troll,Neutral,Deceased
+260,Zendarin Windrunner,Unknown,Blood Elf,Unknown,Deceased
+261,Zul'jin,Male,Forest Troll,Neutral,Deceased
+262,Zul,Male,Zandalari Troll,Neutral,Deceased
+263,Zuluhed the Whacked,Male,Orc,Combat,Deceased
