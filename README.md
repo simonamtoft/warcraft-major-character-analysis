@@ -7,6 +7,12 @@ Analysis of the [Major characters in Warcraft](https://wowpedia.fandom.com/wiki/
 
 
 ## Prepare text data etc.
+Setup environment
+```
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+```
 Run the python scripts in the following order:
 ```
 python download_character_pages.py
