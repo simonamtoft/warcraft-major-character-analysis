@@ -88,7 +88,7 @@ if __name__ == "__main__":
                 G.add_edge(name, link)
 
     # save Pandas DataFrame
-    df.to_csv(config.PATH_RES + 'df_chars.csv')
+    df.to_csv(config.PATH_RES + 'df_chars.csv', index=False)
 
     # create a new graph from the largest component in G
     Gcc = G.subgraph(max(nx.weakly_connected_components(G), key=len)).copy()
