@@ -22,6 +22,9 @@ if __name__ == "__main__":
     wpt = nltk.tokenize.WordPunctTokenizer()
     wnl = nltk.stem.wordnet.WordNetLemmatizer()
 
+    # define words/tokens to remove
+    remove_words = nltk.corpus.stopwords.words('english')
+
     # create folder if it doesn't exist
     if not os.path.exists(SAVE_FOLDER):
         os.makedirs(SAVE_FOLDER)
@@ -48,7 +51,7 @@ if __name__ == "__main__":
         tokens = wpt.tokenize(text)
 
         # Keep only tokens that are words, and lemmatize them
-        words = [wnl.lemmatize(t) for t in tokens if should_keep(t)]
+        words = [wnl.lemmatize(t) for t in tokens if should_keep(t, remove_words)]
         
         # write words to txt file
         with open(savepath, 'w', encoding="utf-8") as f:
