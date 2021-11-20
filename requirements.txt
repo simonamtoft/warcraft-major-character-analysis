@@ -15,3 +15,4 @@ tqdm
 beautifulsoup4
 wikitextparser
 urllib3
+wordcloud

@@ -17,5 +17,6 @@ PATH_COMMENTS = './data/char_comments/'
 URL_BASE = 'https://wowpedia.fandom.com/api.php'
 START_TITLE = 'Major_characters'
 
-
+# path to visualizations
+PATH_PLOTS = './visualizations/'
 
