@@ -1,6 +1,7 @@
 import nltk
 import pickle
 import numpy as np
+from PIL import Image
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
@@ -70,15 +71,27 @@ def add_wordcloud_string(col):
     return col 
 
 
-def disp_wordcloud(col_idx, collection, savepath=''):
+def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_color='white', contour_width=3, contour_color='steelblue'):
     if collection[col_idx]['wordcloud'] == '':
         return -1
+
+
+    # load mask
+    mask = None
+    if maskpath != '':
+        mask = np.asarray(Image.open(maskpath))
+
     wc = (
         WordCloud(
-            max_words=1000,  margin=1, collocations=False)
+            max_words=1000, margin=1, collocations=False, mask=mask,
+            background_color=background_color, contour_width=contour_width, 
+            contour_color=contour_color
+        )
         .generate(collection[col_idx]['wordcloud'])
         .to_array()
     )
+    
+    plt.figure()
     plt.title(col_idx)
     plt.imshow(wc, interpolation="bilinear")
     plt.axis("off")

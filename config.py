@@ -20,3 +20,7 @@ START_TITLE = 'Major_characters'
 # path to visualizations
 PATH_PLOTS = './visualizations/'
 
+
+# define some colors
+COLOR_HORDE = '#FF3333'
+COLOR_ALLIANCE = '#3399FF'
