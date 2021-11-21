@@ -85,7 +85,7 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_col
         WordCloud(
             max_words=1000, margin=1, collocations=False, mask=mask,
             background_color=background_color, contour_width=contour_width, 
-            contour_color=contour_color
+            contour_color=contour_color,font_path="./NeoSans Black.otf"
         )
         .generate(collection[col_idx]['wordcloud'])
         .to_array()
