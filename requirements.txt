@@ -16,3 +16,5 @@ beautifulsoup4
 wikitextparser
 urllib3
 wordcloud
+python-louvain
+community
