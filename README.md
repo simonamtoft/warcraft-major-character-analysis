@@ -5,6 +5,8 @@ Analysis of the [Major characters in Warcraft](https://wowpedia.fandom.com/wiki/
 
 [YouTube Video for Part A](https://www.youtube.com/watch?v=JJx5f5nSYfs)
 
+[Website for Part B](https://youngpenguin.github.io/WOWenShittyWebsite/)
+
 
 ## Prepare text data etc.
 Setup environment
