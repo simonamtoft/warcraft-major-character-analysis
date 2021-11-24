@@ -20,3 +20,5 @@ python-louvain
 community
 scikit-image
 ciso8601
+vaderSentiment
+flair
