@@ -29,14 +29,14 @@ if __name__ == "__main__":
         os.makedirs(config.PATH_WORDS)
     
     # create word file for each cleaned character page
-    for fname in glob(config.PATH_CLEAN + '*.txt'):
+    for fpath in glob(config.PATH_CLEAN + '*.txt'):
         # check if that file is already handled
-        savepath = config.PATH_WORDS + fname.split('\\')[-1]
+        savepath = config.PATH_WORDS + fpath.split('\\')[-1]
         if os.path.isfile(savepath):
             continue
 
         # read in cleaned character text file
-        with open(fname, "r", encoding="utf-8") as f:
+        with open(fpath, "r", encoding="utf-8") as f:
             text = f.read()
 
         # remove stuff regarding patches

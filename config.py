@@ -10,6 +10,9 @@ PATH_CLEAN = './data/wow_chars_clean/'
 # path to character word text files
 PATH_WORDS = './data/wow_chars_words/'
 
+# path to character quotes
+PATH_QUOTES = './data/wow_chars_quotes/'
+
 # path to user comments from wowhead
 PATH_COMMENTS = './data/char_comments/'
 
