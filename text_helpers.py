@@ -77,7 +77,7 @@ def populate_collection(col, save_path=''):
     return col
 
 
-def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_color='white', contour_width=3, contour_color='steelblue', title=''):
+def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title=''):
     if collection[col_idx]['wordcloud'] == '':
         return -1
 
@@ -98,9 +98,8 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_col
             # min_font_size=30,
             collocations=False, 
             mask=mask,
-            background_color=background_color,
-            contour_width=contour_width, 
-            contour_color=contour_color,
+            background_color="rgba(255, 255, 255, 0)", 
+            mode="RGBA",
             font_path="./NeoSans Black.otf",
         )
         .generate(collection[col_idx]['wordcloud'])

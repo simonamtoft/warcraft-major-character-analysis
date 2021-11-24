@@ -110,12 +110,11 @@ for attr in attr_lookup:
         maskpath = f'./data/masks/{split}.jpg'
         if not os.path.isfile(maskpath):
             maskpath = ''
+        
         disp_wordcloud(
             split, col,
             savepath=filename, 
             maskpath=maskpath, 
-            contour_color=None,
-            contour_width=0
         )
 
 # create wordclouds for communities
@@ -124,7 +123,5 @@ for i, com_name in enumerate(com_names):
     filename = PATH_PLOTS + f'wc_com_{i}.png'
     disp_wordcloud(
         i, col,
-        savepath=filename,
-        contour_color=None,
-        contour_width=0
+        savepath=filename
     )
