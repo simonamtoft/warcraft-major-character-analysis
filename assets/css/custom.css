@@ -1,0 +1,31 @@
+@font-face {font-family: "LifeCraftRegular";
+  src: url("font/1dd8d81c8ec73dac8887c1243a771e56.eot"); /* IE9*/
+  src: url("font/1dd8d81c8ec73dac8887c1243a771e56.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("font/1dd8d81c8ec73dac8887c1243a771e56.woff2") format("woff2"), /* chrome、firefox */
+  url("font/1dd8d81c8ec73dac8887c1243a771e56.woff") format("woff"), /* chrome、firefox */
+  url("font/1dd8d81c8ec73dac8887c1243a771e56.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("font/1dd8d81c8ec73dac8887c1243a771e56.svg#LifeCraftRegular") format("svg"); /* iOS 4.1- */
+}
+
+.wow_font{
+  font-family:"LifeCraftRegular" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+}
+
+.center {
+  padding: 0;
+  margin: auto;
+  display: block;
+  max-width: 800px !important;
+} 
+  .bk{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .bk-logo-small, .bk-tool-icon-pan, .bk-tool-icon-wheel-zoom, .bk-divider, .bk-tool-icon-save, .bk-tool-icon-hover{
+    display: none !important;
+  }
+  
