@@ -1,0 +1,37 @@
+
+
+Top 5 for attribute Gender
+	Male: razorgore, anzu, voljin, amalgamation, rexxar
+	Female: whelp, onyxian, yula, lift, ony
+
+Top 5 for attribute Faction
+	Alliance: thassarian, koltira, skybreaker, lurid, naaru
+	Horde: rexxar, blackhand, rokhan, ya, troll
+
+========================================================
+
+Top 5 words for each community
+
+"Khadgar, Illidan Stormrage, Lor'themar Theron"
+gravity, lapse, capernian, pyroblast, phoenix
+
+"Deathwing, Sargeras, Yogg-Saron"
+amalgamation, whelp, thorim, ony, tendon
+
+"Sylvanas Windrunner, Lich King, Varian Wrynn"
+darion, lich, frostmourne, arthas, thassarian
+
+"Tyrande Whisperwind, Malfurion Stormrage, Alexstrasza"
+drelanim, jarod, malorne, ursoc, kariel
+
+"Thrall, Ner'zhul, Orgrim Doomhammer"
+blackhand, kargath, drekthar, gall, margok
+
+"Anzu, Terokk, Talon King Ikiss"
+anzu, terokk, ikiss, anzus, sethekk
+
+"Jaina Proudmoore, Anduin Wrynn, Garrosh Hellscream"
+razorgore, plushie, xu, chen, yula
+
+========================================================
+

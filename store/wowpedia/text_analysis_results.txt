@@ -1,0 +1,37 @@
+
+
+Top 5 for attribute Gender
+	Male: rexxar, voljin, demon, mannoroth, drekthar
+	Female: ysera, elune, draka, talanji, aegwynn
+
+Top 5 for attribute Faction
+	Alliance: turalyon, antonidas, thassarian, koltira, faol
+	Horde: rokhan, rexxar, nazgrel, bwonsamdi, eitrigg
+
+========================================================
+
+Top 5 words for each community
+
+"Khadgar, Illidan Stormrage, Lor'themar Theron"
+halduron, lorthemar, alleria, rommath, muru
+
+"Deathwing, Sargeras, Yogg-Saron"
+odyn, tyr, mimiron, thorim, nefarian
+
+"Sylvanas Windrunner, Lich King, Varian Wrynn"
+thassarian, koltira, darion, sylvanas, alexandros
+
+"Tyrande Whisperwind, Malfurion Stormrage, Alexstrasza"
+malorne, jarod, aviana, eranikus, tyrande
+
+"Thrall, Ner'zhul, Orgrim Doomhammer"
+draka, horde, drekthar, maraad, orgrim
+
+"Anzu, Terokk, Talon King Ikiss"
+ikiss, terokk, anzu, terokks, rukhmar
+
+"Jaina Proudmoore, Anduin Wrynn, Garrosh Hellscream"
+li, chen, garrosh, voljin, horde
+
+========================================================
+

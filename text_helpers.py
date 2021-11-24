@@ -81,36 +81,36 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_col
     if collection[col_idx]['wordcloud'] == '':
         return -1
 
+    plt.figure()
+
     # load mask
     mask = None
     if maskpath != '':
         mask = np.asarray(Image.open(maskpath))
-    
-    # set title to be col index if not set
-    if title == '':
-        title = col_idx
+    else:
+        plt.title(title, fontsize=14)
 
     wc = (
         WordCloud(
             max_words=1000, 
-            margin=1, 
+            margin=1,
+            # max_font_size=500,
+            # min_font_size=30,
             collocations=False, 
             mask=mask,
             background_color=background_color,
             contour_width=contour_width, 
             contour_color=contour_color,
-            font_path="./NeoSans Black.otf"
+            font_path="./NeoSans Black.otf",
         )
         .generate(collection[col_idx]['wordcloud'])
         .to_array()
     )
     
-    plt.figure()
-    plt.title(title, fontsize=14)
     plt.imshow(wc, interpolation="bilinear")
     plt.axis("off")
     if savepath != '':
-        plt.savefig(savepath)
+        plt.savefig(savepath, transparent=True, dpi=500)
         plt.close()
     else:
         plt.show()
