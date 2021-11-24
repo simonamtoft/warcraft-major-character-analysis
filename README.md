@@ -32,8 +32,10 @@ python pages_to_words.py
 python comments_clean.py
 python comments_to_words.py
 ```
+
+## Text and Network analysis
 Perform text analysis computations by referencing the `Text Analysis.ipynb` notebook.
-Then do text analysis by `text_analysis.py`.
+Then do text analysis by `text_analysis.py`. Also possible to compute sentiments with XXXX.
 
 
 ## References
