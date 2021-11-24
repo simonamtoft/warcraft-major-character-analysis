@@ -132,3 +132,5 @@ dmypy.json
 data/wow_chars/*
 data/wow_chars_clean/*
 data/wow_chars_words/*
+data/char_comments_words/*
+data/char_comments_clean/*

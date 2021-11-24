@@ -13,6 +13,12 @@ PATH_WORDS = './data/wow_chars_words/'
 # path to user comments from wowhead
 PATH_COMMENTS = './data/char_comments/'
 
+# path to comments from wowhead in words
+PATH_COMMENTS_WORDS = './data/char_comments_words/'
+
+# path to 'cleaned' wowhead comments
+PATH_COMMENTS_CLEAN = './data/char_comments_clean/'
+
 # define base API url + titles used
 URL_BASE = 'https://wowpedia.fandom.com/api.php'
 START_TITLE = 'Major_characters'

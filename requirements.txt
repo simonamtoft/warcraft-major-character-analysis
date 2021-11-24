@@ -1,6 +1,7 @@
 wheel
 ipykernel
 ipython
+ipywidgets
 jupyter-client
 jupyter-core
 nltk
@@ -19,3 +20,6 @@ wordcloud
 python-louvain
 community
 scikit-image
+ciso8601
+vaderSentiment
+flair
