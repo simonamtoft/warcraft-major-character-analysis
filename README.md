@@ -35,7 +35,14 @@ python comments_to_words.py
 
 ## Text and Network analysis
 Perform text analysis computations by referencing the `Text Analysis.ipynb` notebook.
-Then do text analysis by `text_analysis.py`. Also possible to compute sentiments with XXXX.
+
+Then we can do text analysis on either the user comments from wowhead or character pages on wowpedia by
+```
+python text_analysis.py -s wowpedia
+python text_analysis.py -s wowhead
+```
+
+We can also compute sentiments by ....
 
 
 ## References
