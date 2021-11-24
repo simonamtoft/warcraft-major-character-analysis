@@ -6,10 +6,8 @@ from tqdm import tqdm
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-import config
 
-
-def init_collection(df, attr, words_corpus):
+def init_collection(df, attr, path_words, words_corpus):
     """Initialize a collection based on an attribute in the DataFrame.
         The 'collection' will consists of the collection of words from the
         given word_corpus split by the attribute."""
@@ -23,7 +21,7 @@ def init_collection(df, attr, words_corpus):
         # create list of paths for every character of current attribute
         names = df.loc[df[attr] == at, 'Name'].values
         paths = [
-            config.PATH_WORDS + n.replace(' ', '_') + '.txt' 
+            path_words + n.replace(' ', '_') + '.txt' 
             for n in names
         ]
 
