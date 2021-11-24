@@ -1,6 +1,4 @@
 import os
-import re
-import json
 import nltk
 from glob import glob
 from tqdm import tqdm
@@ -31,21 +29,16 @@ if __name__ == "__main__":
         os.makedirs(config.PATH_COMMENTS_WORDS)
 
     # convert all comments on each character to words
-    for char_path in tqdm(glob(config.PATH_COMMENTS + '*.njson'), desc='Processing wowhead comments'):
+    for char_path in tqdm(glob(config.PATH_COMMENTS_CLEAN + '*.txt'), desc='Converting wowhead comments to words'):
 
         # check if that file is already handled
-        savepath = config.PATH_COMMENTS_WORDS + char_path.split('\\')[-1].replace('njson', 'txt')
+        savepath = config.PATH_COMMENTS_WORDS + char_path.split('\\')[-1]
         if os.path.isfile(savepath):
             continue
         
-        # extract all comments from the downloaded character comments from wowhead
-        text = ''
-        for comment_meta in open(char_path, 'r', encoding='utf-8'):
-            text += ' ' + json.loads(comment_meta)['body']
-
-        # clean brackets and newlines/tabs
-        text = re.sub(r"\[.+?\]", " ", text)
-        text = re.sub(r"[\t\n]+", " ", text)
+        # get text from file
+        with open(char_path, 'r', encoding="utf-8") as f:
+            text = f.read()
 
         # butcher contractions (')
         # important to keep meaning for e.g. "A'dal" and "Sha'tar"
