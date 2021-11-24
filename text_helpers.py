@@ -14,14 +14,14 @@ def init_collection(df, attr, words_corpus):
     # create collection with texts for each member
     col = {}
     for at in attrs:
-        # create list of paths for every character of current faction
+        # create list of paths for every character of current attribute
         names = df.loc[df[attr] == at, 'Name'].values
         paths = [
             config.PATH_WORDS + n.replace(' ', '_') + '.txt' 
             for n in names
         ]
 
-        # save text for faction
+        # save text for attribute
         col[at] = {'text': nltk.Text(words_corpus.words(paths))}
     return col
 
@@ -71,7 +71,7 @@ def add_wordcloud_string(col):
     return col 
 
 
-def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_color='white', contour_width=3, contour_color='steelblue'):
+def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_color='white', contour_width=3, contour_color='steelblue', title=''):
     if collection[col_idx]['wordcloud'] == '':
         return -1
 
@@ -80,6 +80,10 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_col
     mask = None
     if maskpath != '':
         mask = np.asarray(Image.open(maskpath))
+    
+    # set title to be col index if not set
+    if title == '':
+        title = col_idx
 
     wc = (
         WordCloud(
@@ -92,9 +96,11 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', background_col
     )
     
     plt.figure()
-    plt.title(col_idx)
+    plt.title(title, fontsize=14)
     plt.imshow(wc, interpolation="bilinear")
     plt.axis("off")
     if savepath != '':
         plt.savefig(savepath)
-    plt.show()
+        plt.close()
+    else:
+        plt.show()
