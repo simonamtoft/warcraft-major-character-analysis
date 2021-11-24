@@ -2,6 +2,7 @@ import re
 import numpy as np
 import pandas as pd
 import networkx as nx
+from tqdm import tqdm
 from glob import glob
 import wikitextparser as wtp
 
@@ -30,7 +31,7 @@ if __name__ == "__main__":
     ## Create Graph with attributes
     G = nx.DiGraph()
     df = pd.DataFrame({'Name': name_list})
-    for name, path in zip(name_list, path_list):
+    for name, path in tqdm(zip(name_list, path_list), desc='Adding characters to graph'):
         # read text from downloaded character file 
         with open(path, 'r', encoding='utf-8') as f:
             txt = f.read()
@@ -62,6 +63,10 @@ if __name__ == "__main__":
         if 'status' in infobox_dict:
             status = re.sub(r'\s?<.*>', '', infobox_dict['status'])
             status = re.sub(r'[,;]', '', status.split(' ')[0])
+
+        # set other factions
+        if faction not in ['Horde', 'Alliance']:
+            faction = 'Neutral'
 
         # add node with attributes
         G.add_node(

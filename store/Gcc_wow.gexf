@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-11-19">
+  <meta lastmodifieddate="2021-11-24">
     <creator>NetworkX 2.5.1</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -311,7 +311,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Mag'Har Orc" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -447,7 +447,7 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Val'Kyr" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -455,7 +455,7 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Val'Kyr" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -567,7 +567,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Black Drake" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -631,7 +631,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Nathrezim" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -639,7 +639,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Human" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Active" />
         </attvalues>
       </node>
@@ -775,7 +775,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Titanic Watcher" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -807,7 +807,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Red Drake" />
-          <attvalue for="2" value="Unknown" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -895,7 +895,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="High Elf" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -935,7 +935,7 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Naaru" />
-          <attvalue for="2" value="Boss" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Killable" />
         </attvalues>
       </node>
@@ -951,7 +951,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Forsaken" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -983,7 +983,7 @@
         <attvalues>
           <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Blood Elf" />
-          <attvalue for="2" value="Unknown" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1295,7 +1295,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Frost Wyrm" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1303,7 +1303,7 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Human" />
-          <attvalue for="2" value="Unknown" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Sacrificed" />
         </attvalues>
       </node>
@@ -1335,7 +1335,7 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Blue Drake" />
-          <attvalue for="2" value="Friendly" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
       </node>
@@ -1351,7 +1351,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Arakkoa" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1415,7 +1415,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Human" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1423,7 +1423,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Nathrezim" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Alive" />
         </attvalues>
       </node>
@@ -1431,7 +1431,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Human" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1575,7 +1575,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Forsaken" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1615,7 +1615,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Keeper Of The Grove" />
-          <attvalue for="2" value="Boss" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Killable" />
         </attvalues>
       </node>
@@ -1671,7 +1671,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Dark Iron Dwarf" />
-          <attvalue for="2" value="Boss" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1751,7 +1751,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Orc" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1831,7 +1831,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Highmountain Tauren" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -1863,7 +1863,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Fel Orc" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Killable" />
         </attvalues>
       </node>
@@ -1935,7 +1935,7 @@
         <attvalues>
           <attvalue for="0" value="Female" />
           <attvalue for="1" value="Mantid" />
-          <attvalue for="2" value="Boss" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -2047,7 +2047,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Ogre Mage" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Killable" />
         </attvalues>
       </node>
@@ -2055,7 +2055,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Ogre" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Killable" />
         </attvalues>
       </node>
@@ -2071,7 +2071,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Zandalari Troll" />
-          <attvalue for="2" value="Combat" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Deceased" />
         </attvalues>
       </node>
@@ -2087,7 +2087,7 @@
         <attvalues>
           <attvalue for="0" value="Male" />
           <attvalue for="1" value="Arakkoa" />
-          <attvalue for="2" value="Boss" />
+          <attvalue for="2" value="Neutral" />
           <attvalue for="3" value="Killable" />
         </attvalues>
       </node>

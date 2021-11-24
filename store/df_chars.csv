@@ -5,7 +5,7 @@ Aegwynn,Female,Human,Neutral,Deceased
 Aessina,Female,Wisp,Neutral,Unknown
 Aethas Sunreaver,Male,Blood Elf,Horde,Alive
 Agamaggan,Male,Boar,Neutral,Deceased
-Agatha,Female,Val'Kyr,Combat,Deceased
+Agatha,Female,Val'Kyr,Neutral,Deceased
 Aggramar,Male,Titan,Neutral,Alive
 Aiden Perenolde,Male,Human,Neutral,Deceased
 Akama,Male,Broken,Neutral,Alive
@@ -20,10 +20,10 @@ Anachronos,Male,Bronze Drake,Neutral,Alive
 Anasterian Sunstrider,Male,High Elf,Neutral,Deceased
 Anduin Lothar,Male,Human,Alliance,Deceased
 Anduin Wrynn,Male,Human,Alliance,Alive
-Annhylde the Caller,Female,Val'Kyr,Combat,Deceased
+Annhylde the Caller,Female,Val'Kyr,Neutral,Deceased
 Antonidas,Male,Human,Alliance,Deceased
 Anub'arak,Male,Crypt Lord,Neutral,Deceased
-Anveena Teague,Female,Human,Unknown,Sacrificed
+Anveena Teague,Female,Human,Neutral,Sacrificed
 Anzu,Male,Dread Raven,Neutral,Deceased
 Arator the Redeemer,Male,Half-Elf,Alliance,Alive
 Archbishop Benedictus,Male,Human,Neutral,Deceased
@@ -34,9 +34,9 @@ Aviana,Female,Ancient Guardian,Neutral,Alive
 Aysa Cloudsinger,Female,Pandaren,Alliance,Alive
 Azgalor,Male,Annihilan,Neutral,Defeated
 Baine Bloodhoof,Male,Tauren,Horde,Alive
-Balnazzar,Male,Nathrezim,Combat,Deceased
+Balnazzar,Male,Nathrezim,Neutral,Deceased
 Baron Revilgaz,Male,Goblin,Neutral,Alive
-Baron Rivendare,Male,Human,Combat,Active
+Baron Rivendare,Male,Human,Neutral,Active
 Blackhand,Male,Orc,Horde,Deceased
 Bolvar Fordragon,Male,Human,Neutral,Active
 Brann Bronzebeard,Male,Ironforge Dwarf,Alliance,Alive
@@ -44,23 +44,23 @@ Broll Bearmantle,Male,Night Elf,Alliance,Alive
 Broxigar,Male,Orc,Horde,Deceased
 C'Thun,Unknown,Old God,Neutral,Defeatable
 Cairne Bloodhoof,Male,Tauren,Horde,Deceased
-Celebras,Male,Keeper Of The Grove,Boss,Killable
+Celebras,Male,Keeper Of The Grove,Neutral,Killable
 Cenarius,Male,Wild God,Neutral,Alive
 Chen Stormstout,Male,Pandaren,Neutral,Alive
 Chi-Ji,Male,August Celestial,Neutral,Alive
 Cho'gall,Male,Ogre Mage,Neutral,Deceased
 Chronormu,Female,Bronze Drake,Neutral,Alive
 Daelin Proudmoore,Male,Human,Alliance,Deceased
-Dagran Thaurissan,Male,Dark Iron Dwarf,Boss,Deceased
+Dagran Thaurissan,Male,Dark Iron Dwarf,Neutral,Deceased
 Dagran Thaurissan II,Male,Dwarf,Alliance,Alive
 Dal'rend Blackhand,Male,Orc,Neutral,Deceased
 Danath Trollbane,Male,Human,Alliance,Alive
-Dar'Khan Drathir,Male,High Elf,Combat,Deceased
+Dar'Khan Drathir,Male,High Elf,Neutral,Deceased
 Dargrul,Male,Drogbar,Neutral,Deceased
 Darion Mograine,Male,Human,Neutral,Active
 Darius Crowley,Male,Worgen,Alliance,Alive
 Dath'Remar Sunstrider,Male,High Elf,Neutral,Deceased
-Deathwing,Male,Black Drake,Combat,Deceased
+Deathwing,Male,Black Drake,Neutral,Deceased
 Dentarg,Male,Ogre Mage,Horde,Deceased
 Draka,Female,Maldraxxi,Neutral,Active
 Dranosh Saurfang,Unknown,Mag'Har Orc,Neutral,Deceased
@@ -73,7 +73,7 @@ Elune,Female,God,Neutral,Active
 Emperor Shaohao,Male,Pandaren,Neutral,Deceased
 Eonar,Female,Titan,Neutral,Active
 Eranikus,Male,Green Drake,Neutral,Deceased
-Falric,Male,Human,Combat,Deceased
+Falric,Male,Human,Neutral,Deceased
 Falstad Wildhammer,Male,Wildhammer Dwarf,Alliance,Alive
 Fandral Staghelm,Male,Night Elf,Neutral,Deceased
 Fenris Wolfbrother,Male,Orc,Horde,Unknown
@@ -83,14 +83,14 @@ Galakrond,Male,Proto-Drake,Neutral,Deceased
 Galen Trollbane,Male,Forsaken,Neutral,Deceased
 Garad,Male,Orc,Neutral,Deceased
 Garona Halforcen,Female,Half-Orc,Horde,Alive
-Garrosh Hellscream,Male,Mag'Har Orc,Combat,Deceased
+Garrosh Hellscream,Male,Mag'Har Orc,Neutral,Deceased
 Gelbin Mekkatorque,Male,Gnome,Alliance,Alive
 Genn Greymane,Male,Worgen,Alliance,Alive
 Giramar,Unknown,Half-Elf,Alliance,Alive
 Goldrinn,Male,Wild God,Neutral,Alive
 Golganneth,Male,Titan,Neutral,Alive
-Grand Apothecary Putress,Male,Forsaken,Combat,Deceased
-Grand Empress Shek'zeer,Female,Mantid,Boss,Deceased
+Grand Apothecary Putress,Male,Forsaken,Neutral,Deceased
+Grand Empress Shek'zeer,Female,Mantid,Neutral,Deceased
 Grand Magister Rommath,Male,Blood Elf,Horde,Alive
 Greatmother Geyah,Female,Mag'Har Orc,Horde,Alive
 Gruul the Dragonkiller,Male,Gronn,Neutral,Deceased
@@ -127,7 +127,7 @@ Koltira Deathweaver,Male,Blood Elf,Horde,Active
 Korialstrasz,Male,Red Drake,Neutral,Deceased
 Kur'talos Ravencrest,Male,Night Elf,Neutral,Active
 Kurdran Wildhammer,Male,Wildhammer Dwarf,Alliance,Alive
-L'ura,Female,Naaru,Boss,Killable
+L'ura,Female,Naaru,Neutral,Killable
 Lady Liadrin,Female,Blood Elf,Horde,Alive
 Landan Wrynn,Male,Human,Neutral,Deceased
 Lasan Skyhorn,Male,Highmountain Tauren,Horde,Alive
@@ -139,7 +139,7 @@ Lilian Voss,Female,Forsaken,Horde,Active
 Liu Lang,Male,Pandaren,Neutral,Deceased
 Li Li Stormstout,Female,Pandaren,Neutral,Alive
 Llane Wrynn I,Male,Human,Neutral,Deceased
-Loken,Male,Titanic Watcher,Combat,Deceased
+Loken,Male,Titanic Watcher,Neutral,Deceased
 Lor'themar Theron,Male,Blood Elf,Horde,Alive
 Lorewalker Cho,Male,Pandaren,Neutral,Alive
 Lorna Crowley,Female,Human,Alliance,Alive
@@ -149,13 +149,13 @@ Magister Umbric,Male,Void Elf,Alliance,Alive
 Magni Bronzebeard,Male,Mountain Dwarf,Alliance,Active
 Magtheridon,Male,Annihilan,Neutral,Defeated
 Maiev Shadowsong,Female,Night Elf,Alliance,Alive
-Mal'Ganis,Male,Nathrezim,Combat,Alive
+Mal'Ganis,Male,Nathrezim,Neutral,Alive
 Malfurion Stormrage,Male,Night Elf,Alliance,Alive
 Malorne,Male,Stag,Neutral,Alive
 Malygos,Male,Blue Drake,Neutral,Deceased
 Mannoroth,Male,Annihilan,Neutral,Defeated
 Marin Noggenfogger,Male,Goblin,Neutral,Alive
-Marwyn,Male,Human,Combat,Deceased
+Marwyn,Male,Human,Neutral,Deceased
 Master Apothecary Faranell,Male,Forsaken,Horde,Active
 Master Gadrin,Male,Jungle Troll,Horde,Alive
 Mayla Highmountain,Female,Highmountain Tauren,Horde,Alive
@@ -164,13 +164,13 @@ Medivh,Male,Human,Neutral,Active
 Meryl Felstorm,Male,Human,Neutral,Active
 Millhouse Manastorm,Male,Gnome,Neutral,Alive
 Mimiron,Male,Titanic Watcher,Neutral,Active
-Mogor,Male,Ogre Mage,Combat,Killable
+Mogor,Male,Ogre Mage,Neutral,Killable
 Moira Thaurissan,Female,Mountain Dwarf,Alliance,Alive
-Mug'thol,Male,Ogre,Combat,Killable
+Mug'thol,Male,Ogre,Neutral,Killable
 Muln Earthfury,Male,Tauren,Neutral,Alive
 Muradin Bronzebeard,Male,Dwarf,Alliance,Alive
 N'Zoth,Unknown,Old God,Neutral,Presumed
-Nathanos Blightcaller,Male,Forsaken,Combat,Deceased
+Nathanos Blightcaller,Male,Forsaken,Neutral,Deceased
 Navarrogg,Male,Drogbar,Neutral,Alive
 Nazgrel,Male,Orc,Horde,Alive
 Nefarian,Male,Black Drake,Neutral,Deceased
@@ -196,7 +196,7 @@ Rexxar,Male,Half-Ogre,Horde,Alive
 Rhonin,Male,Human,Neutral,Deceased
 Rokhan,Male,Jungle Troll,Horde,Alive
 Sabellian,Male,Black Drake,Neutral,Alive
-Sapphiron,Male,Frost Wyrm,Combat,Deceased
+Sapphiron,Male,Frost Wyrm,Neutral,Deceased
 Sargeras,Male,Titan,Neutral,Imprisoned
 Sen'jin,Male,Jungle Troll,Neutral,Deceased
 Shandris Feathermoon,Female,Night Elf,Alliance,Alive
@@ -207,13 +207,13 @@ Smolderon,Male,Fire Elemental,Neutral,Unknown
 Soridormi,Female,Bronze Drake,Neutral,Alive
 Sunwalker Dezco,Unknown,Tauren,Horde,Alive
 Sylvanas Windrunner,Female,Forsaken,Neutral,Active
-Tagar Spinebreaker,Male,Fel Orc,Combat,Killable
+Tagar Spinebreaker,Male,Fel Orc,Neutral,Killable
 Talanji,Female,Zandalari Troll,Horde,Alive
-Talon King Ikiss,Male,Arakkoa,Boss,Killable
+Talon King Ikiss,Male,Arakkoa,Neutral,Killable
 Taran Zhu,Male,Pandaren,Neutral,Alive
 Taretha Foxton,Female,Human,Alliance,Deceased
 Terenas Menethil II,Male,Human,Alliance,Deceased
-Terokk,Male,Arakkoa,Combat,Deceased
+Terokk,Male,Arakkoa,Neutral,Deceased
 Teron Gorefiend,Male,Orc,Neutral,Deceased
 Thargas Anvilmar,Male,Ironforge Dwarf,Alliance,Alive
 Thassarian,Male,Human,Alliance,Active
@@ -225,15 +225,15 @@ Thrall,Male,Orc,Horde,Alive
 Thunderaan,Male,Air Elemental,Neutral,Alive
 Tichondrius,Male,Nathrezim,Neutral,Defeated
 Tirion Fordring,Male,Human,Neutral,Deceased
-Torok Bloodtotem,Male,Highmountain Tauren,Combat,Deceased
+Torok Bloodtotem,Male,Highmountain Tauren,Neutral,Deceased
 Tortolla,Male,Turtle,Neutral,Alive
 Trade Prince Steamwheedle,Male,Goblin,Neutral,Alive
 Trag Highmountain,Male,Tauren,Horde,Active
 Turalyon,Male,Human,Alliance,Alive
 Tyr,Male,Titanic Watcher,Neutral,Deceased
-Tyranastrasz,Male,Red Drake,Unknown,Deceased
+Tyranastrasz,Male,Red Drake,Neutral,Deceased
 Tyrande Whisperwind,Female,Night Elf,Alliance,Alive
-Tyrygosa,Female,Blue Drake,Friendly,Alive
+Tyrygosa,Female,Blue Drake,Neutral,Alive
 Ulan Highmountain,Male,Highmountain Tauren,Neutral,Deceased
 Ursoc,Male,Bear,Neutral,Deceased
 Ursol,Male,Bear,Neutral,Alive
@@ -245,7 +245,7 @@ Varo'then,Male,Night Elf,Neutral,Deceased
 Varok Saurfang,Male,Orc,Horde,Deceased
 Velen,Male,Draenei,Alliance,Alive
 Vereesa Windrunner,Female,High Elf,Alliance,Alive
-Vilnak'dor,Male,Zandalari Troll,Combat,Deceased
+Vilnak'dor,Male,Zandalari Troll,Neutral,Deceased
 Vindicator Maraad,Male,Draenei,Alliance,Deceased
 Vol'jin,Male,Jungle Troll,Horde,Reincarnating
 Wrathion,Male,Black Drake,Neutral,Alive
@@ -259,7 +259,7 @@ Ysera,Female,Green Drake,Neutral,Active
 Yu'lon,Female,August Celestial,Neutral,Alive
 Zaetar,Male,Keeper Of The Grove,Neutral,Deceased
 Zalazane,Male,Jungle Troll,Neutral,Deceased
-Zendarin Windrunner,Unknown,Blood Elf,Unknown,Deceased
+Zendarin Windrunner,Unknown,Blood Elf,Neutral,Deceased
 Zul'jin,Male,Forest Troll,Neutral,Deceased
 Zul,Male,Zandalari Troll,Neutral,Deceased
-Zuluhed the Whacked,Male,Orc,Combat,Deceased
+Zuluhed the Whacked,Male,Orc,Neutral,Deceased
