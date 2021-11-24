@@ -13,14 +13,27 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 ```
-Run the python scripts in the following order:
+Start by downloading pages from the api in two different versions
 ```
 python download_character_pages.py
 python download_character_pages_clean.py
-python pages_to_words.py
-python download_character_comments.py
+```
+Create the `networkx` graph along with a `pandas` dataframe
+```
 python create_wow_graph.py
 ```
+Download necessary stuff in relation to comments
+```
+python download_character_comments.py
+```
+Clean and tokenize words on text from wowpedia (wiki pages) and text from wowhead (user comments)
+```
+python pages_to_words.py
+python comments_clean.py
+python comments_to_words.py
+```
+Perform text analysis computations by referencing the `Text Analysis.ipynb` notebook.
+Then do text analysis by `text_analysis.py`.
 
 
 ## References
