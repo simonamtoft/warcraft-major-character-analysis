@@ -1,6 +1,7 @@
 wheel
 ipykernel
 ipython
+ipywidgets
 jupyter-client
 jupyter-core
 nltk
