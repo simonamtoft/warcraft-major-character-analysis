@@ -19,6 +19,10 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
     # if os.path.isfile(savepath):
     #     continue
 
+    # Dentarg is a reference page, took out manually
+    if charname == 'Dentarg':
+        continue
+    
     # read file
     with open(fpath, 'r', encoding='utf-8') as f:
         text = f.read()
@@ -27,43 +31,100 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
     if not len(re.findall(r'[q|Q]uotes ?==', text)):
         continue
         
-    # get only quotes
+    # extract the quotes section from the wikipage
     quotes = re.split(r'[q|Q]uotes ?==', text)[-1]
     quotes = re.split(r'\s==([^=]+)==\s', quotes)[0]
 
+    # remove gallery section
+    quotes = re.sub(r'<gallery>[^><]+<\/gallery>', ' ', quotes)
+    
+    # remove refs
+    quotes = re.sub(r'<ref>[^<]+<\/ref>', ' ', quotes)
+    quotes = re.sub(r'<ref name=[\w\d \-"\'().,]+>.+<\/ref>', ' ', quotes)
+    quotes = re.sub(r'<ref name=[\w\d \-"\'().,]+\/>', ' ', quotes)
 
     # remove stuff
-    quotes = re.sub(r';.+\n', ' ', quotes)
-    quotes = re.sub(r'==(.+)==', '', quotes)    # headers
-    quotes = re.sub(r'\{\{[\w-]+\}\}', '', quotes)    #
-    # Notes|Quotes|Transcript|Progress|Completion|Quest dialogue|Event Script|Will of the Ashbringer
-    pattern = r'\{\{(?:Main|main)\|([\w ()/\'\!\,\?\-]+)(?:#[\w ]+)?\}\}'
+    quotes = re.sub(r'==(.+)==', '', quotes)                # headers
+    # quotes = re.sub(r'\{\{[\w-]+\}\}', '', quotes)        #
+    quotes = re.sub(r'\{\{\w+\-section\}\}', '', quotes)    # section headers
+    quotes = re.sub('</?br>', '\n', quotes)                 # remove line breaks <br>
+    quotes = re.sub('\{\{sic\}\}', '', quotes)              # remove {{sic}}
+
+    # remove references to patches
+    quotes = re.sub(r'\(Patch \d(.\d)+\)', ' ', quotes)
+    quotes = re.sub(r"\(Removed in ''Patch \d.\d.\d\w?''\)", '', quotes)
+
+    # remove actual url links
+    urls = re.findall(r'\[(https?:\/\/[\w\/.]+)(.+)\]', quotes)
+    for url in urls:
+        quotes = quotes.replace(
+            '[' + url[0] + url[1] + ']',
+            url[1]
+        )
+
+    # remove specific chars that appear at the start of a lot of lines
+    for char in '*:':
+        quotes = quotes.replace(char, ' ')
+
+    # remove linking pattern to other sources in {{}}
+    pattern = r'\{\{[M|m]ain\|([\w ()\/\'\!\,\?\-\.]+)(?:#[\w \'\-]+)?\}\}'
     # notes = re.findall(pattern, quotes) # these might be able to be used
     quotes = re.sub(pattern, '', quotes)
-    quotes = re.sub('</?br>', '\n', quotes)     # remove line breaks <br>
-    quotes = re.sub('<ref [^<]+>', ' ', quotes) # remove start <ref>
-    quotes = quotes.replace('</ref>', ' ')      # remove end <ref>
-    
-    # remove some specific chars
-    for char in '*:': #<>"
-        quotes = quotes.replace(char, ' ')           # remove specific chars
+
+    # remove in-line comments
+    quotes = re.sub(r'<!--[^<]+-->', ' ', quotes)
+
+    # remove linking by extracting the actual words from [[]]
+    link_pattern = r"\[\[([\w '\(\)\-,.\?\!#]+\|(?:\w+\|)?)?([\w\d ',.\-\?()\!]+)\]\]"
+    links = re.findall(link_pattern, quotes)
+    # print(f"\n\nFinding links for {charname}\n\n")
+    for link in links:
+        rep = link[1]   # what to replace with
+        if link[0] == '':
+            original = '[[' + link[1] + ']]'
+        else:
+            original = '[[' + link[0] + link[1] + ']]'
+        quotes = quotes.replace(original, rep)
 
     # go over line by line
     lines = ''
     for line in quotes.split('\n'):
         line = line.strip()
 
+        # remove linking to images
+        if '.jpg' in line.lower() or '.png' in line.lower():
+            line = ''       
+
         # extract quote from a text with character name {{text|--|person|quote}}
-        text_quote = re.findall(r'\{\{(?:text|Text)\|(?:say|yell|whisper|Say|Yell)\|([^\|]+)\|([^\|]+)\}\}', line)
+        text_quote = re.findall(r'\{\{(?:[t|T]ext)\|(?:[s|S]ay|[y|Y]ell|[w|W]hisper|[e|E]mote|[b|B]ossemote)\|([^|]+)\|([^\|\{]+)\}\}', line)
         if len(text_quote):
-            character, line = text_quote[0]
+            character, line_1 = text_quote[0]
+
+            # character can be a link
+            charlink = re.findall(r'\{\{(npc|NPC)\|\|([\w \-\']+)(\|\|[\w \-\']+)?\}\}', character)
+            if len(charlink):
+                npc_, character, line_2 = charlink[0]
+                line_1 = line_1.replace(
+                    '{{' + npc_ + '||' + character + line_2 + '}}',
+                    line_2.replace('||', '')
+                )
+            
+            # keep line if character is current character
             if character in charname or charname in character:
-                line = line
+                line = line_1
             else:
                 line = ''
+        else:
+            charlink = re.findall(r'\{\{(npc|NPC)\|\|([\w \-\']+)(\|\|[\w \-\']+)?\}\}', line)
+            if len(charlink):
+                npc_, character, line_ = charlink[0]
+                line = line.replace(
+                    '{{' + npc_ + '||' + character + line_ + '}}',
+                    line_.replace('||', '')
+                )
 
         # extract quote from a text quote pattern {{text|--|quote}}
-        text_quote = re.findall(r'\{\{(?:text|Text)\|(?:say|yell|whisper|Say|Yell)\|(.+)\}\}', line)
+        text_quote = re.findall(r'\{\{(?:text|Text)\|(?:[s|S]ay|[y|Y]ell|[w|W]hisper|[e|E]mote|[b|B]ossemote)\|(.+)\}\}', line)
         if len(text_quote):
             line = text_quote[0]
         
@@ -75,14 +136,65 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
                 line = re.sub(r'\'\'\'([\w ]+)\'\'\'', ' ', line)
             else:
                 line = ''
+
+        # extract text from gossip
+        pattern_gossip = r"\{\{([G|g]ossip\|)(.+)\}\}"
+        gossips = re.findall(pattern_gossip, line)
+        if len(gossips):
+            gossips = gossips[0]
+            line = line.replace(
+                '{{' + gossips[0] + gossips[1] + '}}',
+                gossips[1]
+            )
         
-        # remove everything in <>
-        line = re.sub(r'<[\w .\']+>', '', line)
+        # remove excess spaces
+        line = line.strip()
+
+        # remove references to unit quotes
+        quote_headers = [
+            '{{Novel-section|', '{{For|unit quotes|', 
+            '{{Classic only-section', '{{Stub-section',
+            '{{Seealso', '{{BC Classic only-section',
+            '{{Col', '{{Comic-section', '{{Cleanup-section',
+            '<!--', '{{rfb-section', '{{rfg-section', '{{seealso'
+        ]
+        for qh in quote_headers:
+            if line.startswith(qh):
+                line = ''
+
+        # remove quote headers
+        if (
+            line.startswith("''For " + charname + "'s Warcraft") or
+            line.startswith("''For " + charname.split(' ')[0] + "'s Warcraft") or 
+            line.startswith(';') or 
+            (line == 'When spoken to')
+        ):
+            line = ''
+
+        # check again if any links were missing (nested)
+        text_quote = re.findall(r'\{\{([^|{]+\|(?:[^|]+\|)?)(.+)\}\}', line)
+        if len(text_quote):
+            text_quote = text_quote[0]
+            line = line.replace(
+                '{{' + text_quote[0] + text_quote[1] + '}}',
+                text_quote[1]
+            )
         
+        # remove 'actions'
+        line = re.sub(r'<[\w .\/\',\?]+>', '', line)
+
         # don't add empty lines
         if line:
-            line = line.strip()
-            lines += line + '\n'
+            lines += line + '\n' 
+    
+    # finally remove specific characters
+    for char in ['"', '“', '—', '[', ']']:
+        lines = lines.replace(char, '')
+    for char in [';']:
+        lines = lines.replace(char, ' ')
+
+    # remove excess spaces
+    lines = re.sub(r'[ ]+', ' ', lines).strip()
 
     # save file
     with open(savepath, 'w', encoding='utf-8') as f:
