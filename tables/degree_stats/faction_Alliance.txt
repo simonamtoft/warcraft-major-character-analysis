@@ -1,0 +1,33 @@
+<table>
+  <tr>
+    <th>min</th>
+    <th>max</th>
+    <th>mean</th>
+    <th>median</th>
+    <th>mode</th>
+  </tr>
+  <tr>
+    <td>In-degree</td>
+    <td>0</td>
+    <td>27</td>
+    <td>9.37</td>
+    <td>9.0</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Out-degree</td>
+    <td>0</td>
+    <td>24</td>
+    <td>9.37</td>
+    <td>9.0</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Total-degree</td>
+    <td>0</td>
+    <td>51</td>
+    <td>18.73</td>
+    <td>18.0</td>
+    <td>6</td>
+  </tr>
+</table>

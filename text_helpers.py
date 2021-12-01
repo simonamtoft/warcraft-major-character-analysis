@@ -100,7 +100,7 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title=''):
             mask=mask,
             background_color="rgba(255, 255, 255, 0)", 
             mode="RGBA",
-            font_path="./NeoSans Black.otf",
+            font_path="./store/NeoSans Black.otf",
         )
         .generate(collection[col_idx]['wordcloud'])
         .to_array()

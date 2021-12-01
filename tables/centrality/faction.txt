@@ -1,0 +1,25 @@
+<table>
+  <tr>
+    <th>Horde</th>
+    <th>Alliance</th>
+    <th>Neutral</th>
+  </tr>
+  <tr>
+    <td>deg</td>
+    <td>0.134007</td>
+    <td>0.179356</td>
+    <td>0.096958</td>
+  </tr>
+  <tr>
+    <td>bwn</td>
+    <td>0.007062</td>
+    <td>0.008802</td>
+    <td>0.004222</td>
+  </tr>
+  <tr>
+    <td>eig</td>
+    <td>0.047472</td>
+    <td>0.067552</td>
+    <td>0.034995</td>
+  </tr>
+</table>
