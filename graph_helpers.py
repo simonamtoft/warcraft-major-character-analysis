@@ -136,7 +136,6 @@ def compute_centrality_status(G, centrality_name):
     )
 
 
-
 def html_centralities(save_path, columns, row_data):
     """Save degree stats for in-, out- and total-degree of the networkx graph G to a HTML table."""
     table = "<table>\n"
