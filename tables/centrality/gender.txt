@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th>Male</th>
+    <th>Female</th>
+  </tr>
+  <tr>
+    <td>deg</td>
+    <td>0.114426</td>
+    <td>0.119036</td>
+  </tr>
+  <tr>
+    <td>bwn</td>
+    <td>0.005290</td>
+    <td>0.005649</td>
+  </tr>
+  <tr>
+    <td>eig</td>
+    <td>0.042228</td>
+    <td>0.041210</td>
+  </tr>
+</table>
