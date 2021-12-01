@@ -23,3 +23,5 @@ scikit-image
 ciso8601
 vaderSentiment
 flair
+powerlaw
+
