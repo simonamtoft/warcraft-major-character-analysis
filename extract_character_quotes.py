@@ -183,6 +183,16 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
         # remove 'actions'
         line = re.sub(r'<[\w .\/\',\?]+>', '', line)
 
+        # remove ''+
+        line = re.sub(r"''+", '', line)
+        
+        # finally remove {{}} and (), which after all other cleaning are NOT quotes.
+        line = re.sub(r'\{\{[^\{\}]+\}\}', " ", line)
+        line = re.sub(r'\([^\(\)]+\)', " ", line)
+
+        # remove residue from not perfect regex
+        line = re.sub(r'\w+=', ' ', line)
+
         # don't add empty lines
         if line:
             lines += line + '\n' 
