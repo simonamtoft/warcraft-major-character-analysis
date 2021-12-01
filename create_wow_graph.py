@@ -67,6 +67,13 @@ if __name__ == "__main__":
         # set other factions
         if faction not in ['Horde', 'Alliance']:
             faction = 'Neutral'
+        
+
+        # map status to Deceased/Alive
+        if status in ['Killable', 'Active', 'Defunct', 'Defeatable', 'Imprisoned', 'Killable']:
+            status = 'Alive'
+        elif status in ['Deceased/Unknown', 'Sacrificed', 'Presumed', 'Reincarnating', 'Defeated']:
+            status = 'Deceased'
 
         # add node with attributes
         G.add_node(
