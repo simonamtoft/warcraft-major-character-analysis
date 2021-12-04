@@ -8,6 +8,10 @@ Top 5 for attribute Faction
 	Alliance: turalyon, antonidas, thassarian, koltira, faol
 	Horde: rokhan, rexxar, nazgrel, bwonsamdi, eitrigg
 
+Top 5 for attribute Status
+	Alive: thrall, dragon, khadgar, could, sargeras
+	Deceased: voljin, dragon, king, deathwing, could
+
 ========================================================
 
 Top 5 words for each community

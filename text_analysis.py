@@ -76,15 +76,16 @@ for com in communities:
 
 # define what to look into
 attr_lookup = {
-    'Gender': [('Male', '#0B1C51'), ('Female', '#FCB9B2')],
-    'Faction': [('Alliance', config.COLOR_ALLIANCE), ('Horde', config.COLOR_HORDE)]
+    'Gender': ['Male', 'Female'],
+    'Faction': ['Alliance', 'Horde'],
+    'Status': ['Alive', 'Deceased']
 }
 
 # display top words for attributes
 for attr in attr_lookup:
     OUT_STRING += f'\n\nTop 5 for attribute {attr}'
     col = pickle.load(open(PATH_RES + attr + '_dict.json', 'rb'))
-    for split, _ in attr_lookup[attr]:
+    for split in attr_lookup[attr]:
         top = get_top(col, split, 5)
         OUT_STRING += f'\n\t{split}: {top}'
 
@@ -105,8 +106,12 @@ with open(PATH_RES + 'text_analysis_results.txt', 'w') as f:
 # create wordclouds for attributes
 for attr in attr_lookup:
     col = pickle.load(open(PATH_RES + attr + '_dict.json', 'rb'))
-    for split, color in attr_lookup[attr]:
+    for split in attr_lookup[attr]:
         filename = PATH_PLOTS + f'wc_{split}.png'
+        if os.path.isfile(filename):
+            continue
+
+        # get mask if present
         maskpath = f'./data/masks/{split}.jpg'
         if not os.path.isfile(maskpath):
             maskpath = ''
@@ -121,6 +126,9 @@ for attr in attr_lookup:
 col = pickle.load(open(PATH_RES + 'Louvain_dict.json', 'rb'))
 for i, com_name in enumerate(com_names):
     filename = PATH_PLOTS + f'wc_com_{i}.png'
+    if os.path.isfile(filename):
+            continue
+    
     disp_wordcloud(
         i, col,
         savepath=filename

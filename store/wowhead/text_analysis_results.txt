@@ -8,6 +8,10 @@ Top 5 for attribute Faction
 	Alliance: thassarian, koltira, skybreaker, lurid, naaru
 	Horde: rexxar, blackhand, rokhan, ya, troll
 
+Top 5 for attribute Status
+	Alive: get, pet, kill, fight, damage
+	Deceased: get, kill, phase, razorgore, add
+
 ========================================================
 
 Top 5 words for each community
