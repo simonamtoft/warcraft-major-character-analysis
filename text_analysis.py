@@ -108,8 +108,8 @@ for attr in attr_lookup:
     col = pickle.load(open(PATH_RES + attr + '_dict.json', 'rb'))
     for split in attr_lookup[attr]:
         filename = PATH_PLOTS + f'wc_{split}.png'
-        # if os.path.isfile(filename):
-        #     continue
+        if os.path.isfile(filename):
+            continue
 
         # get mask if present
         maskpath = f'./store/masks/{split}.jpg'
@@ -127,8 +127,8 @@ for attr in attr_lookup:
 col = pickle.load(open(PATH_RES + 'Louvain_dict.json', 'rb'))
 for i, com_name in enumerate(com_names):
     filename = PATH_PLOTS + f'wc_com_{i}.png'
-    # if os.path.isfile(filename):
-    #         continue
+    if os.path.isfile(filename):
+            continue
     
     disp_wordcloud(
         i, col,
