@@ -5,6 +5,26 @@ from tqdm import tqdm
 
 import config
 
+def nickname_map(charname):
+    """Nickname map that is needed when comparing character names in quotes."""
+    if charname == 'The Banshee Queen':
+        return 'Sylvanas'
+    elif charname == 'High Overlord Saurfang':
+        return 'Varok'
+    elif 'Ashara' in charname:
+        return charname.replace('Ashara', 'Azshara')
+    elif 'Manstorm' in charname:
+        return charname.replace('Manstorm', 'Manastorm')
+    elif charname == 'Prince Llane Wrynn':
+        return 'Llane Wrynn I'
+    elif 'Halduron' in charname:
+        return 'Halduron Brightwing'
+    elif 'Mekkatorque' in charname:
+        return 'Gelbin Mekkatorque'
+    elif charname == 'Spiritwalker Ebonhorn':
+        return 'Ebyssian'
+    return charname
+
 
 # create folder if it doesn't exist
 if not os.path.exists(config.PATH_QUOTES):
@@ -45,7 +65,6 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
 
     # remove stuff
     quotes = re.sub(r'==(.+)==', '', quotes)                # headers
-    # quotes = re.sub(r'\{\{[\w-]+\}\}', '', quotes)        #
     quotes = re.sub(r'\{\{\w+\-section\}\}', '', quotes)    # section headers
     quotes = re.sub('</?br>', '\n', quotes)                 # remove line breaks <br>
     quotes = re.sub('\{\{sic\}\}', '', quotes)              # remove {{sic}}
@@ -68,7 +87,6 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
 
     # remove linking pattern to other sources in {{}}
     pattern = r'\{\{[M|m]ain\|([\w ()\/\'\!\,\?\-\.]+)(?:#[\w \'\-]+)?\}\}'
-    # notes = re.findall(pattern, quotes) # these might be able to be used
     quotes = re.sub(pattern, '', quotes)
 
     # remove in-line comments
@@ -96,7 +114,8 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
             line = ''       
 
         # extract quote from a text with character name {{text|--|person|quote}}
-        text_quote = re.findall(r'\{\{(?:[t|T]ext)\|(?:[s|S]ay|[y|Y]ell|[w|W]hisper|[e|E]mote|[b|B]ossemote)\|([^|]+)\|([^\|\{]+)\}\}', line)
+        # |[e|E]mote|[b|B]ossemote
+        text_quote = re.findall(r'\{\{(?:[t|T]ext)\|(?:[s|S]ay|[y|Y]ell|[w|W]hisper)\|([^|]+)\|([^\|\{]+)\}\}', line)
         if len(text_quote):
             character, line_1 = text_quote[0]
 
@@ -104,27 +123,36 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
             charlink = re.findall(r'\{\{(npc|NPC)\|\|([\w \-\']+)(\|\|[\w \-\']+)?\}\}', character)
             if len(charlink):
                 npc_, character, line_2 = charlink[0]
-                line_1 = line_1.replace(
+                line = line_1.replace(
                     '{{' + npc_ + '||' + character + line_2 + '}}',
                     line_2.replace('||', '')
                 )
             
+            # handle some nicknames
+            character = nickname_map(character)
+
             # keep line if character is current character
-            if character in charname or charname in character:
-                line = line_1
-            else:
+            if not (character in charname or charname in character):
                 line = ''
         else:
             charlink = re.findall(r'\{\{(npc|NPC)\|\|([\w \-\']+)(\|\|[\w \-\']+)?\}\}', line)
             if len(charlink):
-                npc_, character, line_ = charlink[0]
+                npc_, character, line_1 = charlink[0]
                 line = line.replace(
-                    '{{' + npc_ + '||' + character + line_ + '}}',
-                    line_.replace('||', '')
+                    '{{' + npc_ + '||' + character + line_1 + '}}',
+                    line_1.replace('||', '')
                 )
 
+                # handle some nicknames
+                character = nickname_map(character)
+
+                # keep line if character is current character
+                if not (character in charname or charname in character):
+                    line = ''
+
         # extract quote from a text quote pattern {{text|--|quote}}
-        text_quote = re.findall(r'\{\{(?:text|Text)\|(?:[s|S]ay|[y|Y]ell|[w|W]hisper|[e|E]mote|[b|B]ossemote)\|(.+)\}\}', line)
+        # |[e|E]mote|[b|B]ossemote
+        text_quote = re.findall(r'\{\{(?:text|Text)\|(?:[s|S]ay|[y|Y]ell|[w|W]hisper)\|(.+)\}\}', line)
         if len(text_quote):
             line = text_quote[0]
         
@@ -132,6 +160,10 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
         character = re.findall(r'\'\'\'([\w ]+)\'\'\'', line)
         if len(character):
             character = character[0]
+            
+            # handle some nicknames
+            character = nickname_map(character)
+
             if character in charname or charname in character:
                 line = re.sub(r'\'\'\'([\w ]+)\'\'\'', ' ', line)
             else:
@@ -174,6 +206,7 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
         # check again if any links were missing (nested)
         text_quote = re.findall(r'\{\{([^|{]+\|(?:[^|]+\|)?)(.+)\}\}', line)
         if len(text_quote):
+            print(text_quote)
             text_quote = text_quote[0]
             line = line.replace(
                 '{{' + text_quote[0] + text_quote[1] + '}}',
