@@ -112,7 +112,7 @@ for attr in attr_lookup:
             continue
 
         # get mask if present
-        maskpath = f'./data/masks/{split}.jpg'
+        maskpath = f'./store/masks/{split}.jpg'
         if not os.path.isfile(maskpath):
             maskpath = ''
         
