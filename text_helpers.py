@@ -97,13 +97,12 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title=''):
         WordCloud(
             max_words=1000, 
             margin=1,
-            # max_font_size=500,
-            # min_font_size=30,
             collocations=False, 
             mask=mask,
             background_color="rgba(255, 255, 255, 0)", 
             mode="RGBA",
             font_path=FONT_PATH,
+            colormap='Dark2',
         )
         .generate(collection[col_idx]['wordcloud'])
         .to_array()
