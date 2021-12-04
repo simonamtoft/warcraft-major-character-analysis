@@ -5,6 +5,9 @@ from PIL import Image
 from tqdm import tqdm
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from matplotlib import font_manager as fm
+
+FONT_PATH = "./store/NeoSans Black.otf"
 
 
 def init_collection(df, attr, path_words, words_corpus):
@@ -100,16 +103,19 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title=''):
             mask=mask,
             background_color="rgba(255, 255, 255, 0)", 
             mode="RGBA",
-            font_path="./store/NeoSans Black.otf",
+            font_path=FONT_PATH,
         )
         .generate(collection[col_idx]['wordcloud'])
         .to_array()
     )
     
     plt.imshow(wc, interpolation="bilinear")
+    if title != '':
+        prop = fm.FontProperties(fname=FONT_PATH)
+        plt.title(title, fontproperties=prop)
     plt.axis("off")
     if savepath != '':
-        plt.savefig(savepath, transparent=True, dpi=500)
+        plt.savefig(savepath, transparent=False, dpi=500)
         plt.close()
     else:
         plt.show()
