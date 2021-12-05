@@ -3,6 +3,7 @@ Analysis of the [Major characters in Warcraft](https://wowpedia.fandom.com/wiki/
 
 The end products are an initial [YouTube Video for Part A](https://www.youtube.com/watch?v=JJx5f5nSYfs), and the final [Website for Part B](https://youngpenguin.github.io/WOWenShittyWebsite/).
 
+For a detailed explanation of the project, which tools are used etc., refer to the `Explainer.ipynb` notebook.
 
 ## Prepare text data etc.
 Setup environment
