@@ -19,7 +19,7 @@ print(f'Creating Wordclouds for {source}')
 
 # define what to look into
 attr_lookup = {
-    'Gender': ['Male', 'Female'],
+    'Gender': ['Male', 'Female', 'Unknown'],
     'Faction': ['Alliance', 'Horde'],
     'Status': ['Alive', 'Deceased']
 }
