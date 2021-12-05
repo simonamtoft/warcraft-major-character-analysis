@@ -51,6 +51,8 @@ python text_analysis.py -s wowhead
 We can also compute sentiments for character quotes and wowhead user comments, and perform time-series analysis, which is done in `Sentiment Analysis.ipynb`.
 
 
+Every part of the network analysis is done in the `Graph Analysis.ipynb` notebook.
+
 ## References
 - [Extracting the multiscale backbone of complex
 weighted networks](https://www.pnas.org/content/pnas/106/16/6483.full.pdf)
