@@ -24,15 +24,19 @@ Create the `networkx` graph along with a `pandas` dataframe. The resulting graph
 ```
 python create_wow_graph.py
 ```
-Download necessary stuff in relation to comments
+Download necessary stuff in relation to comments. This takes a long time, if repo is not too old, just use the comments already stored in `/data/char_comments/`.
 ```
 python download_character_comments.py
 ```
-Clean and tokenize words on text from wowpedia (wiki pages) and text from wowhead (user comments)
+Clean the user comments from wowhead and convert the cleaned character pages from wowhead and wowpedia to list of words.
 ```
 python comments_clean.py
 python pages_to_words.py -f -s wowhead
 python pages_to_words.py -f -s wowpedia
+```
+Extract quotes from the raw wowpedia pages, used for sentiment analysis.
+```
+python extract_character_quotes.py
 ```
 
 ## Text and Network analysis
@@ -44,7 +48,7 @@ python text_analysis.py -s wowpedia
 python text_analysis.py -s wowhead
 ```
 
-We can also compute sentiments by ....
+We can also compute sentiments for character quotes and wowhead user comments, and perform time-series analysis, which is done in `Sentiment Analysis.ipynb`.
 
 
 ## References
