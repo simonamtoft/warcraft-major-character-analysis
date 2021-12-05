@@ -46,8 +46,15 @@ for attr in attr_lookup:
 col = pickle.load(open(PATH_RES + 'Louvain_dict.json', 'rb'))
 for i in range(len(col)):
     filename = PATH_PLOTS + f'wc_com_{i}.png'
+    
+    # get mask if present
+    maskpath = f'./store/masks/com_mask_{i}.jpg'
+    if not os.path.isfile(maskpath):
+        maskpath = ''
+            
     disp_wordcloud(
         i, col,
         title=source.title(),
-        savepath=filename
+        savepath=filename, 
+        maskpath=maskpath, 
     )
