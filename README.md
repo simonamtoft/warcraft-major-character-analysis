@@ -15,12 +15,12 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 ```
-Start by downloading pages from the api in two different versions
+Start by downloading raw and clean wowpedia pages from the api with the following two scripts
 ```
 python download_character_pages.py
 python download_character_pages_clean.py
 ```
-Create the `networkx` graph along with a `pandas` dataframe
+Create the `networkx` graph along with a `pandas` dataframe. The resulting graph and dataframe should already be store in `G_wow.gexf` and `Gcc_wow.gexf`, and `df_chars.csv` in the folder `/store/`. 
 ```
 python create_wow_graph.py
 ```
@@ -36,7 +36,7 @@ python pages_to_words.py -f -s wowpedia
 ```
 
 ## Text and Network analysis
-Perform text analysis computations by referencing the `Text Analysis.ipynb` notebook.
+Perform text analysis computations by referencing the `Text Analysis.ipynb` notebook. These computation are (and should already be) stored in the json files under `/store/wowhead/` and `/store/wowpedia/`.
 
 Then we can do text analysis on either the user comments from wowhead or character pages on wowpedia by
 ```
