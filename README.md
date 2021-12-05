@@ -30,9 +30,9 @@ python download_character_comments.py
 ```
 Clean and tokenize words on text from wowpedia (wiki pages) and text from wowhead (user comments)
 ```
-python pages_to_words.py
 python comments_clean.py
-python comments_to_words.py
+python pages_to_words.py -f -s wowhead
+python pages_to_words.py -f -s wowpedia
 ```
 
 ## Text and Network analysis
