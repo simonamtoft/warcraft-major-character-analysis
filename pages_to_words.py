@@ -20,10 +20,19 @@ def should_keep(token, remove_words=[]):
 
 if __name__ == "__main__":
     # add argument parser
-    parser = argparse.ArgumentParser(description=f"Convert pages from {config.PATH_CLEAN} to list of processed words ready for text analysis, stored in {config.PATH_WORDS}.")
+    parser = argparse.ArgumentParser(description=f"Convert pages from to list of processed words ready for text analysis.")
     parser.add_argument('-f', dest='force', action='store_true')
     parser.set_defaults(force=False)
+    parser.add_argument('-s', '--source', help='Source of text to process (wowpedia/wowhead)', default='wowpedia', choices=['wowpedia', 'wowhead'])
     args = parser.parse_args()
+
+    # determine paths based on source
+    if args.source == 'wowhead':
+        path_clean = config.PATH_COMMENTS_CLEAN
+        path_words = config.PATH_COMMENTS_WORDS
+    else:
+        path_clean = config.PATH_CLEAN
+        path_words = config.PATH_WORDS
 
     # define tokenizer and lemmatizer
     wpt = nltk.tokenize.WordPunctTokenizer()
@@ -34,14 +43,14 @@ if __name__ == "__main__":
     remove_words += ['patch', 'player']
 
     # create folder if it doesn't exist
-    if not os.path.exists(config.PATH_WORDS):
-        os.makedirs(config.PATH_WORDS)
+    if not os.path.exists(path_words):
+        os.makedirs(path_words)
     
     # create word file for each cleaned character page
-    files = glob(config.PATH_CLEAN + '*.txt')
+    files = glob(path_clean + '*.txt')
     characters = [f.split('\\')[-1].replace('.txt', '').replace('_', ' ') for f in files]
-    for fpath in tqdm(files, desc='Convert clean files to list of words'):
-        savepath = config.PATH_WORDS + fpath.split('\\')[-1]
+    for fpath in tqdm(files, desc=f'Convert clean {args.source} files to list of words'):
+        savepath = path_words + fpath.split('\\')[-1]
         
         # check if that file is already handled
         if not args.force:
@@ -57,7 +66,9 @@ if __name__ == "__main__":
 
         # remove character names from text
         for character in characters:
-            text = text.replace(character, ' ')
+            for ch in [character, character.lower()]:
+                text = text.replace(ch, ' ')
+                text = text.replace(ch.replace("'", ''), ' ')
         
         # butcher contractions (')
         # important to keep meaning for e.g. "Sha'tar"
