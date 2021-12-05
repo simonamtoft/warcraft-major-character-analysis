@@ -24,7 +24,6 @@ if __name__ == "__main__":
     parser.add_argument('-f', dest='force', action='store_true')
     parser.set_defaults(force=False)
     args = parser.parse_args()
-    print()
 
     # define tokenizer and lemmatizer
     wpt = nltk.tokenize.WordPunctTokenizer()
