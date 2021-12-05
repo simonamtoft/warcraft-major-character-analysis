@@ -33,22 +33,32 @@ if __name__ == "__main__":
     else:
         path_clean = config.PATH_CLEAN
         path_words = config.PATH_WORDS
+    
+    # create folder if it doesn't exist
+    if not os.path.exists(path_words):
+        os.makedirs(path_words)
 
     # define tokenizer and lemmatizer
     wpt = nltk.tokenize.WordPunctTokenizer()
     wnl = nltk.stem.wordnet.WordNetLemmatizer()
 
+    # get list of files
+    files = glob(path_clean + '*.txt')
+
+    # create list of character names
+    characters = [
+        f.split('\\')[-1].replace('.txt', '').replace('_', ' ').split(' (')[0].lower().replace("'", '')
+        for f in files
+    ]
+    # remove uncommon characters that could also be normal words from list
+    for ch in ['zul', 'tyr', 'ra']:
+        characters.remove(ch)
+
     # define words/tokens to remove
     remove_words = nltk.corpus.stopwords.words('english')
     remove_words += ['patch', 'player']
-
-    # create folder if it doesn't exist
-    if not os.path.exists(path_words):
-        os.makedirs(path_words)
     
     # create word file for each cleaned character page
-    files = glob(path_clean + '*.txt')
-    characters = [f.split('\\')[-1].replace('.txt', '').replace('_', ' ') for f in files]
     for fpath in tqdm(files, desc=f'Convert clean {args.source} files to list of words'):
         savepath = path_words + fpath.split('\\')[-1]
         
@@ -63,12 +73,6 @@ if __name__ == "__main__":
 
         # remove stuff regarding patches
         text = re.sub(r'Patch \d.\d.\d \(\d\d\d\d\-\d\d\-\d\d\)\:', ' ', text)
-
-        # remove character names from text
-        for character in characters:
-            for ch in [character, character.lower()]:
-                text = text.replace(ch, ' ')
-                text = text.replace(ch.replace("'", ''), ' ')
         
         # butcher contractions (')
         # important to keep meaning for e.g. "Sha'tar"
@@ -76,6 +80,10 @@ if __name__ == "__main__":
         
         # lower text
         text = text.lower()
+
+        # remove character names
+        for char in characters:
+            text = re.sub(char, ' ', text)
 
         # tokenize text
         tokens = wpt.tokenize(text)
