@@ -50,6 +50,5 @@ We can also compute sentiments for character quotes and wowhead user comments, a
 Every part of the network analysis is done in the `Graph Analysis.ipynb` notebook.
 
 ## References
-- [Extracting the multiscale backbone of complex
-weighted networks](https://www.pnas.org/content/pnas/106/16/6483.full.pdf)
+- [Network Science, Albert-Laszlo Barabasi](http://networksciencebook.com/)
 - [GitHub Repo for Website](https://github.com/YoungPenguin/WOWenShittyWebsite)
