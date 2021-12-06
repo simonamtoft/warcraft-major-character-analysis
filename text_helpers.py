@@ -118,3 +118,13 @@ def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title=''):
         plt.close()
     else:
         plt.show()
+
+
+def get_paths(df, attr, val, source='wowpedia'):
+    """Get paths to the clean text files for either wowhead or wowpedia for a specific partition of the network."""
+    if source == 'wowhead':
+        folder = 'char_comments_clean/'
+    elif source == 'wowpedia':
+        folder = 'wow_chars_clean/'
+    return ['./data/' + folder + name  + '.txt' for name in df[df[attr] == val]['Name'].values]
+
