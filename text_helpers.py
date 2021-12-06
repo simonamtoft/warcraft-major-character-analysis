@@ -80,11 +80,11 @@ def populate_collection(col, save_path=''):
     return col
 
 
-def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title=''):
+def disp_wordcloud(col_idx, collection, maskpath='', savepath='', title='', figsize=None):
     if collection[col_idx]['wordcloud'] == '':
         return -1
 
-    plt.figure()
+    plt.figure(figsize=figsize)
 
     # load mask
     mask = None
