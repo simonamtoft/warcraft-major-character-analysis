@@ -160,3 +160,7 @@ def html_centralities(save_path, columns, row_data):
     # save html to text file
     with open(save_path, 'w') as f:
         f.write(table)
+
+
+def get_nodes_from_attr(G, attr_name, attr):
+    return [node[0] for node in G.nodes(data=True) if node[1][attr_name] == attr]
