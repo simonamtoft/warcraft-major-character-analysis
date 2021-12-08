@@ -48,7 +48,6 @@ def plot_timeseries(df, breakdown_lookup, char_sentiments, char_data, params, co
                     'no ' if not params['replies'] else ''
                 )
             )
-            figpath = f'{config.PATH_PLOTS}ts-counts.png'
         else:
             y = d.score.mean().dropna()
             plt.title(
@@ -58,12 +57,10 @@ def plot_timeseries(df, breakdown_lookup, char_sentiments, char_data, params, co
                     'no ' if not params['replies'] else ''
                 )
             )
-            figpath = f'{config.PATH_PLOTS}ts-example.png'
         plt.plot(x, y, 'o-', ms=9, linewidth=3, label=val)
     plt.ylabel(params['metric'].title().replace('_', ' '))
     plt.legend()
     plt.tight_layout()
-    plt.savefig(figpath)
     plt.show()
 
 
