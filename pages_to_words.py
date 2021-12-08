@@ -1,6 +1,5 @@
 import os
 import re
-import json
 import nltk
 from glob import glob
 from tqdm import tqdm
