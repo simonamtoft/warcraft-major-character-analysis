@@ -95,7 +95,6 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
     # remove linking by extracting the actual words from [[]]
     link_pattern = r"\[\[([\w '\(\)\-,.\?\!#]+\|(?:\w+\|)?)?([\w\d ',.\-\?()\!]+)\]\]"
     links = re.findall(link_pattern, quotes)
-    # print(f"\n\nFinding links for {charname}\n\n")
     for link in links:
         rep = link[1]   # what to replace with
         if link[0] == '':
@@ -206,7 +205,6 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
         # check again if any links were missing (nested)
         text_quote = re.findall(r'\{\{([^|{]+\|(?:[^|]+\|)?)(.+)\}\}', line)
         if len(text_quote):
-            print(text_quote)
             text_quote = text_quote[0]
             line = line.replace(
                 '{{' + text_quote[0] + text_quote[1] + '}}',
