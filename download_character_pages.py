@@ -1,6 +1,7 @@
 import re
 import os
 from glob import glob
+from tqdm import tqdm
 from api import generate_query, get_response_from, get_main_from
 
 import config
@@ -37,7 +38,7 @@ if __name__ == "__main__":
     print(f'Found {len(charnames)} characters')
 
     # download each character page
-    for charname in charnames:
+    for charname in tqdm(charnames, desc='Download raw character pages'):
         # get name of page from charname
         pagename = charname.replace(' ', '_')
         filename = config.PATH_CHARS + pagename + '.txt'

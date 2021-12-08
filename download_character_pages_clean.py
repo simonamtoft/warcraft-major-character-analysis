@@ -2,6 +2,7 @@ import os
 import re
 import json
 from glob import glob
+from tqdm import tqdm
 from api import generate_query, get_response_from, get_plaintext_from
 
 import config
@@ -12,7 +13,7 @@ if __name__ == "__main__":
         os.makedirs(config.PATH_CLEAN)
 
     # download every plain text character file from the wiki
-    for fname in glob('data/wow_chars/*.txt'):
+    for fname in tqdm(glob('data/wow_chars/*.txt'), desc='Downloading clean character pages'):
         # get charname from path
         charname = fname.replace('.txt', '').split('\\')[-1]
 

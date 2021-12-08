@@ -126,5 +126,5 @@ def get_paths(df, attr, val, source='wowpedia'):
         folder = 'char_comments_clean/'
     elif source == 'wowpedia':
         folder = 'wow_chars_clean/'
-    return ['./data/' + folder + name  + '.txt' for name in df[df[attr] == val]['Name'].values]
+    return ['./data/' + folder + name.replace(' ', '_') + '.txt' for name in df[df[attr] == val]['Name'].values]
 
