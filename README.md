@@ -37,8 +37,6 @@ python extract_character_quotes.py
 ```
 
 ## Text and Network analysis
-Everything should be captured by the `Explainer.ipynb` notebootk, but for individual analysis, refer to one listed below.
-
 Perform text analysis computations by referencing the `Text Analysis.ipynb` notebook. These computation are (and should already be) stored in the json files under `/store/wowhead/` and `/store/wowpedia/`.
 
 Then we can create wordclouds for different graph partitions for both wowpedia and wowhead by 
