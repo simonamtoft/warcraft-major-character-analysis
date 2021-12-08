@@ -2,6 +2,7 @@ import os
 import re
 from glob import glob
 from tqdm import tqdm
+import requests
 
 import config
 
@@ -41,6 +42,10 @@ for fpath in tqdm(glob(config.PATH_CHARS + '*.txt'), desc='Extracting quotes'):
 
     # Dentarg is a reference page, took out manually
     if charname == 'Dentarg':
+        if not os.path.isfile(savepath):
+            r = requests.get('https://raw.githubusercontent.com/simonamtoft/warcraft-major-character-analysis/main/data/wow_chars_quotes/Dentarg.txt').text
+            with open(savepath, 'w', encoding='utf-8') as f:
+                f.write(r)
         continue
     
     # read file
