@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 import random
 import numpy as np
+from typing import List, Tuple
 
 import config
 
@@ -17,13 +18,12 @@ def standardize_comment(comment):
         'is_reply': comment.get('nreplies', 0) > 0
     }
 
-
-def plot_timeseries(df, breakdown_lookup, char_sentiments, char_data, params, counts=False):    
-    plt.figure(figsize=(12,5))
+def get_ts(df, breakdown_lookup, char_sentiments, char_data, params) -> List[Tuple[list, list]]:
     k,grps = breakdown_lookup[params['breakdown']]
+    X = []
+    Y = []
     for val in grps:
         grp_chars = list(df[df[k] == val].Name)
-
         points = []
         for char in grp_chars:
             for C in char_sentiments[char]:
@@ -40,30 +40,31 @@ def plot_timeseries(df, breakdown_lookup, char_sentiments, char_data, params, co
         d = d[d.date < datetime(2021,11,1)]
         d = d.resample(params['resample'], on='date')
         x = list(d.indices)
-        if counts:
-            y = d.score.count().dropna()
-            plt.title(
-                'Wowhead comments count by %s (%sreplies)' % (
-                    k,
-                    'no ' if not params['replies'] else ''
-                )
-            )
-            figpath = f'{config.PATH_PLOTS}ts-counts.png'
+        if params['metric'] == 'count':
+            y = list(d.score.count().dropna().values.astype('float64'))
         else:
-            y = d.score.mean().dropna()
-            plt.title(
-                'Wowhead comments %s by %s (%sreplies)' % (
-                    params['metric'].title().replace('_', ' '),
-                    k,
-                    'no ' if not params['replies'] else ''
-                )
-            )
-            figpath = f'{config.PATH_PLOTS}ts-example.png'
+            y = list(d.score.mean().dropna().values)
+        X.append(x)
+        Y.append(y)
+    return X, Y
+    
+
+def plot_timeseries(params, breakdown_lookup, X, Y):    
+    plt.figure(figsize=(12,5))
+    k,grps = breakdown_lookup[params['breakdown']]
+    for val,x,y in zip(grps, X,Y):
         plt.plot(x, y, 'o-', ms=9, linewidth=3, label=val)
+
+    plt.title(
+        'Wowhead comments %s by %s (%sreplies)' % (
+            params['metric'].title().replace('_', ' '),
+            k,
+            'no ' if not params['replies'] else ''
+        )
+    )
     plt.ylabel(params['metric'].title().replace('_', ' '))
     plt.legend()
     plt.tight_layout()
-    plt.savefig(figpath)
     plt.show()
 
 
